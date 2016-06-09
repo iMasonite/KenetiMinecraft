@@ -1,0 +1,55 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  socket:
+    aliases: [temp]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.socket.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.socket.commands.*: true
+      keneti.socket.features.*: true
+      
+#################################################################################################
+
+  keneti.socket.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.socket.commands.test: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.socket.commands.test:
+    description: Permission to use test commands.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.socket.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.socket.features.test: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.socket.features.test:
+    description: Permission to use test features.
+    default: OP

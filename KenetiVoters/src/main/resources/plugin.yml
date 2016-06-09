@@ -1,0 +1,86 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  votemanager:
+    aliases: [votem]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+  vote:
+    description: Open a vote reward inventory.
+    aliases: [votes]
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.voters.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.voters.commands.*: true
+      keneti.voters.features.*: true
+      
+#################################################################################################
+
+  keneti.voters.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.voters.commands.pseudo: true
+      keneti.voters.commands.runtask: true
+      keneti.voters.commands.voteinventory.*: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.voters.commands.pseudo:
+    description: Permission to create pseudo votes.
+    default: OP
+  keneti.voters.commands.runtask:
+    description: Permission to run the reward task.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.voters.commands.voteinventory.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.voters.commands.voteinventory.openself: true
+      keneti.voters.commands.voteinventory.openothers: true
+      keneti.voters.commands.voteinventory.clearothers: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.voters.commands.voteinventory.openself:
+    description: Permission to open your vote inventory.
+    default: true
+  keneti.voters.commands.voteinventory.openothers:
+    description: Permission to get the vote inventory of another player.
+    default: OP
+  keneti.voters.commands.voteinventory.clearothers:
+    description: Permission to clear a vote inventory for another player.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.voters.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.voters.features.future: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.voters.features.future:
+    description: // TODO
+    default: OP

@@ -1,0 +1,128 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  krandom:
+    aliases: [krnd]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+  growgrass:
+    description: Grow Grass!
+    aliases: [grass]
+    usage: Command not initialised ask admin for help.
+  randomteleport:
+    description: Teleport to a random location.
+    aliases: [randomtp, rtp]
+    usage: Command not initialised ask admin for help.
+  endercrystal:
+    description: Generate an End EnderCrystal.
+    aliases: [enderc]
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.random.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.random.commands.*: true
+      keneti.random.features.*: true
+      
+#################################################################################################
+
+  keneti.random.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.random.commands.randomteleport.*: true
+      keneti.random.commands.growgrass: true
+      keneti.random.commands.endercrystal: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.random.commands.growgrass:
+    description: Grants access to the /growgrass command.
+    default: true
+    
+  keneti.random.commands.endercrystal:
+    description: Grants access to the /endercrystal command.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.random.commands.randomteleport.*:
+    description: Access to all Keneti Regular Commands
+    default: OP
+    children:
+      keneti.random.commands.randomteleport.self: true
+      keneti.random.commands.randomteleport.world: true
+      keneti.random.commands.randomteleport.others: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.random.commands.randomteleport.self:
+    description: Grants access to the /randomteleport command.
+    default: true
+  keneti.random.commands.randomteleport.world:
+    description: Grants access to the /randomteleport command to use cross world.
+    default: true
+  keneti.random.commands.randomteleport.others:
+    description: Grants access to the /randomteleport command to use on other players.
+    default: OP
+        
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.random.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.random.features.future: true
+      keneti.random.features.gamemode.keeponjoin: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.random.features.future:
+    description: // TODO
+    default: OP
+    
+  keneti.random.features.gamemode.keeponjoin:
+    description: On join, keeps gamemode.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.random.features.randomteleport.*:
+    description: Access to all Keneti Regular Features
+    default: OP
+    children:
+      keneti.random.features.randomteleport.bypass.*: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.random.features.randomteleport.bypass.*:
+    description: Access to all Keneti Regular Features
+    default: OP
+    children:
+      keneti.random.features.randomteleport.bypass.cost: true
+      keneti.random.features.randomteleport.bypass.cooldown: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.random.features.randomteleport.bypass.cost:
+    description: No cost for using /rtp
+    default: OP
+  keneti.random.features.randomteleport.bypass.cooldown:
+    description: No cooldown on /rtp
+    default: OP
+ 
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,63 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  commandplayer:
+    aliases: [kplayer]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+  profiles:
+    description: Get your Mojang profile or for another name.
+    aliases: [profile, names]
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.player.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.player.commands.*: true
+      keneti.player.features.*: true
+      
+#################################################################################################
+
+  keneti.player.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.player.commands.get: true
+      keneti.player.commands.profiles: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.player.commands.get:
+    description: Get data.
+    default: OP
+  keneti.player.commands.profiles:
+    description: Get a players MC Profile History.
+    default: true
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.player.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.player.features.gamemode.creative: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.player.features.gamemode.creative:
+    description: Permission to have Creative Game Mode on the server.
+    default: OP

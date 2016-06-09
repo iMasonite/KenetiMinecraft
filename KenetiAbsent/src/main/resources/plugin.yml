@@ -1,0 +1,59 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  absent:
+    aliases: [kafk]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.absent.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.absent.commands.*: true
+      keneti.absent.features.*: true
+      
+#################################################################################################
+
+  keneti.absent.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.absent.commands.disable: true
+      keneti.absent.commands.check: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.absent.commands.disable:
+    description: Disable the AFK tracker.
+    default: OP
+  keneti.absent.commands.check:
+    description: Check a players tracked times.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.absent.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.absent.features.immune: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.absent.features.immune:
+    description: Immune from the AFK checks.
+    default: OP

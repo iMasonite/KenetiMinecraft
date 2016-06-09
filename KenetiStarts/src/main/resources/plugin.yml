@@ -1,0 +1,112 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  starts: 
+    aliases: [kstart]
+    description: ${artifactId} Main command.
+    usage: Command not initialised ask admin for help.
+  systemvariables: 
+    aliases: [sysv]
+    description: Shows System Variables.
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.starts.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: false
+    children:
+      keneti.starts.commands.*: true
+      keneti.starts.features.*: true
+      keneti.starts.commandtype.*: true
+      
+#################################################################################################
+
+  keneti.starts.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: false
+    children:
+      keneti.starts.commands.listcommands: true
+      keneti.starts.commands.system: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.starts.commands.listcommands:
+    description: Grants access to list all keneti commands registered in all Keneti Plugins.
+    default: true
+    
+  keneti.starts.commands.system:
+    description: Grants access to show System Variables.
+    default: true
+        
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.starts.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: false
+    children:
+      keneti.starts.features.listfeatures: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.starts.features.listfeatures:
+    description: Grants access to list all keneti features registered in all Keneti Plugins.
+    default: true
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.starts.commandtype.*:
+    description: Grants root access to all command types.
+    default: false
+    children:
+      keneti.starts.commandtype.general: true
+      keneti.starts.commandtype.developer: true
+      keneti.starts.commandtype.administrator: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.starts.commandtype.general:
+    description: Grants root access General commands.
+    default: true
+  keneti.starts.commandtype.developer:
+    description: Grants root access Developer commands.
+    default: false
+  keneti.starts.commandtype.administrator:
+    description: Grants root access Administrator commands.
+    default: OP
+    
+#################################################################################################
+
+  keneti.universal.*:
+    description: Grants access to all Globalised Commands..
+    default: false
+    children:
+      keneti.universal.commands.*: true
+      
+
+  keneti.universal.commands.*:
+    description: Grants access to all Globalised Commands.
+    default: false
+    children:
+      keneti.universal.commands.reload: true
+      keneti.universal.commands.logger: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.universal.commands.reload:
+    description: Access to plugin reload commands.
+    default: false
+  keneti.universal.commands.logger:
+    description: Grants access to all Keneti Plugins Logger Settings
+    default: false

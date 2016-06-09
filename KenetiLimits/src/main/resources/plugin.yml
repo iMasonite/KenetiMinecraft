@@ -1,0 +1,169 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  limitsmanager:
+    aliases: [limitm, limm]
+    description: Root command for Keneti Limits Manager.
+    usage: Command not initialised ask admin for help.
+  registry:
+    aliases: [kenr]
+    description: Root command for Keneti Registry control.
+    usage: Command not initialised ask admin for help.
+  banneditems:
+    aliases: [banned]
+    description: Banned Item Information.
+    usage: Command not initialised ask admin for help.
+  limiteditems:
+    aliases: [limited, limits]
+    description: Limited Item Information.
+    usage: Command not initialised ask admin for help.
+  unlockableitems:
+    aliases: [unlocks]
+    description: Unlockable Item Information.
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.limits.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.limits.commands.*: true
+      keneti.limits.features.*: true
+      
+#################################################################################################
+
+  keneti.limits.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.limits.commands.registry.*: true
+      keneti.limits.commands.restrictions.*: true
+      keneti.limits.commands.future: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.limits.commands.future:
+    description:  // TODO
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.limits.commands.registry.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.limits.commands.registry.cleanup: true
+      keneti.limits.commands.registry.scan: true
+      keneti.limits.commands.registry.save: true
+      keneti.limits.commands.registry.purge: true
+      keneti.limits.commands.registry.set: true
+      keneti.limits.commands.registry.teleport: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.limits.commands.registry.cleanup:
+    description: Permission to run the discrepancy search task.
+    default: OP
+  keneti.limits.commands.registry.scan:
+    description: Permission to run the world scanner task.
+    default: OP
+  keneti.limits.commands.registry.save:
+    description: Permission to Save the register -sync
+    default: OP
+  keneti.limits.commands.registry.purge:
+    description: Permission to Purge items for players.
+    default: OP
+  keneti.limits.commands.registry.set:
+    description: Permission to Change Loc Ownership for players. 
+    default: OP
+  keneti.limits.commands.registry.teleport:
+    description: Permission to Load locations to teleport to an teleport to them.
+    default: OP
+        
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.limits.commands.restrictions.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.limits.commands.restrictions.save: true
+      keneti.limits.commands.restrictions.read: true
+      keneti.limits.commands.restrictions.add: true
+      keneti.limits.commands.restrictions.rem: true
+      keneti.limits.commands.restrictions.del: true
+      keneti.limits.commands.restrictions.change: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.limits.commands.restrictions.save:
+    description: Permission to save the restrictions to files.
+    default: OP
+  keneti.limits.commands.restrictions.read:
+    description: Permission to print LimitsManager to Console.
+    default: OP
+  keneti.limits.commands.restrictions.add:
+    description: Permission to add to an allowance for a player.
+    default: OP
+  keneti.limits.commands.restrictions.rem:
+    description: Permission to remove from allowance for a player.
+    default: OP
+  keneti.limits.commands.restrictions.del:
+    description: Permission to delete total allowance for a player.
+    default: OP
+  keneti.limits.commands.restrictions.change:
+    description: Permission to set an unlock level to a new rank.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.limits.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.limits.features.bypass.*: true
+      keneti.limits.features.registry.inspect: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.limits.features.registry.inspect:
+    description: Use the Bedrock block to inspect locations.
+    default: OP
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.limits.features.bypass.*:
+    description: Bypass All Restriction Rules.
+    default: OP
+    children:
+      keneti.limits.features.bypass.globalbanned: true
+      keneti.limits.features.bypass.worldsbanned: true
+      keneti.limits.features.bypass.globalunlocks: true
+      keneti.limits.features.bypass.globallimit: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.limits.features.bypass.globalbanned:
+    description: Bypass Global Banned rules.
+    default: OP
+  keneti.limits.features.bypass.worldsbanned:
+    description: Bypass Worlds Banned rules.
+    default: OP
+  keneti.limits.features.bypass.globalunlocks:
+    description: Bypass Global Unlocks rules.
+    default: OP
+  keneti.limits.features.bypass.globallimit:
+    description: Bypass Global Limit rules.
+    default: OP
+

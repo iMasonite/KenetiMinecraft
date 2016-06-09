@@ -1,0 +1,660 @@
+[
+  {
+    "monetaryWorth": 0.324,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 20261,
+    "amount": 64,
+    "data": {
+      "type": 20261,
+      "data": 97
+    },
+    "durability": 97
+  },
+  {
+    "monetaryWorth": 0.324,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 20261,
+    "amount": 64,
+    "data": {
+      "type": 20261,
+      "data": 96
+    },
+    "durability": 96
+  },
+  {
+    "monetaryWorth": 0.3294,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 5636,
+    "amount": 64,
+    "data": {
+      "type": 5636,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.3564,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 295,
+    "amount": 64,
+    "data": {
+      "type": 295,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.3888,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 260,
+    "amount": 64,
+    "data": {
+      "type": 260,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.4023,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 350,
+    "amount": 64,
+    "data": {
+      "type": 350,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.5049,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 20261,
+    "amount": 64,
+    "data": {
+      "type": 20261,
+      "data": -125
+    },
+    "durability": 131
+  },
+  {
+    "monetaryWorth": 0.5184,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 5581,
+    "amount": 64,
+    "data": {
+      "type": 5581,
+      "data": 6
+    },
+    "durability": 6
+  },
+  {
+    "monetaryWorth": 0.5238,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 364,
+    "amount": 64,
+    "data": {
+      "type": 364,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.5319,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 366,
+    "amount": 64,
+    "data": {
+      "type": 366,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.5454,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 357,
+    "amount": 64,
+    "data": {
+      "type": 357,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.594,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 103,
+    "amount": 64,
+    "data": {
+      "type": 103,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.594,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 20261,
+    "amount": 64,
+    "data": {
+      "type": 20261,
+      "data": -124
+    },
+    "durability": 132
+  },
+  {
+    "monetaryWorth": 0.621,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 111,
+    "amount": 64,
+    "data": {
+      "type": 111,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.648,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 320,
+    "amount": 64,
+    "data": {
+      "type": 320,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.675,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 86,
+    "amount": 64,
+    "data": {
+      "type": 86,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 0.756,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 30109,
+    "amount": 64,
+    "data": {
+      "type": 30109,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 1.944,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 30114,
+    "amount": 64,
+    "data": {
+      "type": 30114,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 2.7,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 394,
+    "amount": 64,
+    "data": {
+      "type": 394,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 4.86,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 20261,
+    "amount": 64,
+    "data": {
+      "type": 20261,
+      "data": 69
+    },
+    "durability": 69
+  },
+  {
+    "monetaryWorth": 8.1,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 8.37,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 2
+    },
+    "durability": 2
+  },
+  {
+    "monetaryWorth": 8.64,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 4
+    },
+    "durability": 4
+  },
+  {
+    "monetaryWorth": 11.043,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 373,
+    "amount": 1,
+    "data": {
+      "type": 373,
+      "data": 9
+    },
+    "durability": 8201
+  },
+  {
+    "monetaryWorth": 14.715,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 373,
+    "amount": 1,
+    "data": {
+      "type": 373,
+      "data": 3
+    },
+    "durability": 8195
+  },
+  {
+    "monetaryWorth": 17.334,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 754,
+    "amount": 64,
+    "data": {
+      "type": 754,
+      "data": 1
+    },
+    "durability": 1
+  },
+  {
+    "monetaryWorth": 17.334,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 754,
+    "amount": 64,
+    "data": {
+      "type": 754,
+      "data": 2
+    },
+    "durability": 2
+  },
+  {
+    "monetaryWorth": 17.334,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 754,
+    "amount": 64,
+    "data": {
+      "type": 754,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 18.522,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 30202,
+    "amount": 64,
+    "data": {
+      "type": 30202,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 24.3,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 1
+    },
+    "durability": 1
+  },
+  {
+    "monetaryWorth": 30.105,
+    "isMerchantable": true,
+    "misc_meta": {
+      "owner": "enderman"
+    },
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 3
+    },
+    "durability": 3
+  },
+  {
+    "monetaryWorth": 30.375,
+    "isMerchantable": true,
+    "misc_meta": {
+      "owner": "pigzombie"
+    },
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 3
+    },
+    "durability": 3
+  },
+  {
+    "monetaryWorth": 32.13,
+    "isMerchantable": true,
+    "misc_meta": {
+      "owner": "cavespider"
+    },
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 3
+    },
+    "durability": 3
+  },
+  {
+    "monetaryWorth": 32.13,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 373,
+    "amount": 1,
+    "data": {
+      "type": 373,
+      "data": 1
+    },
+    "durability": 8193
+  },
+  {
+    "monetaryWorth": 32.265,
+    "isMerchantable": true,
+    "misc_meta": {
+      "owner": "blaze"
+    },
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 3
+    },
+    "durability": 3
+  },
+  {
+    "monetaryWorth": 42.93,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 194,
+    "amount": 64,
+    "data": {
+      "type": 194,
+      "data": 6
+    },
+    "durability": 6
+  },
+  {
+    "monetaryWorth": 47.655,
+    "isMerchantable": true,
+    "misc_meta": {
+      "owner": "ghast"
+    },
+    "type": 397,
+    "amount": 64,
+    "data": {
+      "type": 397,
+      "data": 3
+    },
+    "durability": 3
+  },
+  {
+    "monetaryWorth": 52.92,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 30110,
+    "amount": 1,
+    "data": {
+      "type": 30110,
+      "data": 2
+    },
+    "durability": 2
+  },
+  {
+    "monetaryWorth": 54.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 254,
+    "amount": 64,
+    "data": {
+      "type": 254,
+      "data": 6
+    },
+    "durability": 6
+  },
+  {
+    "monetaryWorth": 129.87,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 354,
+    "amount": 1,
+    "data": {
+      "type": 354,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 132.3,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 329,
+    "amount": 1,
+    "data": {
+      "type": 329,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2261,
+    "amount": 1,
+    "data": {
+      "type": 2261,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2256,
+    "amount": 1,
+    "data": {
+      "type": 2256,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2263,
+    "amount": 1,
+    "data": {
+      "type": 2263,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2260,
+    "amount": 1,
+    "data": {
+      "type": 2260,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2266,
+    "amount": 1,
+    "data": {
+      "type": 2266,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2267,
+    "amount": 1,
+    "data": {
+      "type": 2267,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2258,
+    "amount": 1,
+    "data": {
+      "type": 2258,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2262,
+    "amount": 1,
+    "data": {
+      "type": 2262,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2265,
+    "amount": 1,
+    "data": {
+      "type": 2265,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2264,
+    "amount": 1,
+    "data": {
+      "type": 2264,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2257,
+    "amount": 1,
+    "data": {
+      "type": 2257,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 135.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 2259,
+    "amount": 1,
+    "data": {
+      "type": 2259,
+      "data": 0
+    },
+    "durability": 0
+  },
+  {
+    "monetaryWorth": 12960.0,
+    "isMerchantable": true,
+    "misc_meta": {},
+    "type": 31998,
+    "amount": 64,
+    "data": {
+      "type": 31998,
+      "data": 49
+    },
+    "durability": 49
+  }
+]

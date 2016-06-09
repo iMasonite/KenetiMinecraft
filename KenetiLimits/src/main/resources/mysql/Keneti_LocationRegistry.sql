@@ -1,0 +1,16 @@
+CREATE TABLE Keneti_LocationRegistry (
+    LocationKey VARCHAR(128) NOT NULL UNIQUE,
+    ServerName VARCHAR(100) NOT NULL,
+    World VARCHAR(100) NOT NULL,
+    X INT(8) NOT NULL,
+    Y INT(3) NOT NULL,
+    Z INT(8) NOT NULL,
+    RsType VARCHAR(100) NOT NULL,
+    RsUUID VARCHAR(36) NOT NULL,
+    TypeId INT(6) NOT NULL,
+    TypeData INT(4) NOT NULL,
+    TypeName VARCHAR(64) NOT NULL,
+    PlayerName VARCHAR(17) NOT NULL,
+	RecTime BIGINT(13) NOT NULL,
+	CONSTRAINT pk_LocationKey PRIMARY KEY (LocationKey)
+)

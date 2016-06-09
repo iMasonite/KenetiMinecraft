@@ -1,0 +1,2117 @@
+TypeId,ItemDamage,MaxStack,ItemName
+1,0,64,Stone
+2,0,64,Grass Block
+3,0,64,Dirt
+4,0,64,Cobblestone
+5,0,64,Oak Wood Planks
+5,1,64,Spruce Wood Planks
+5,2,64,Birch Wood Planks
+5,3,64,Jungle Wood Planks
+6,0,64,Oak Sapling
+6,1,64,Spruce Sapling
+6,2,64,Birch Sapling
+6,3,64,Jungle Sapling
+7,0,64,Bedrock
+12,0,64,Sand
+13,0,64,Gravel
+14,0,64,Gold Ore
+15,0,64,Iron Ore
+16,0,64,Coal Ore
+17,0,64,Oak Wood
+17,1,64,Spruce Wood
+17,2,64,Birch Wood
+17,3,64,Jungle Wood
+18,0,64,Oak Leaves
+18,1,64,Spruce Leaves
+18,2,64,Birch Leaves
+18,3,64,Jungle Leaves
+19,0,64,Sponge
+20,0,64,Glass
+21,0,64,Lapis Lazuli Ore
+22,0,64,Lapis Lazuli Block
+23,0,64,Dispenser
+24,0,64,Sandstone
+24,1,64,Chiseled Sandstone
+24,2,64,Smooth Sandstone
+25,0,64,Note Block
+27,0,64,Powered Rail
+28,0,64,Detector Rail
+29,0,64,Sticky Piston
+30,0,64,Cobweb
+31,1,64,Grass
+31,2,64,Fern
+32,0,64,Dead Bush
+33,0,64,Piston
+35,0,64,Wool
+35,1,64,Orange Wool
+35,2,64,Magenta Wool
+35,3,64,Light Blue Wool
+35,4,64,Yellow Wool
+35,5,64,Lime Wool
+35,6,64,Pink Wool
+35,7,64,Gray Wool
+35,8,64,Light Gray Wool
+35,9,64,Cyan Wool
+35,10,64,Purple Wool
+35,11,64,Blue Wool
+35,12,64,Brown Wool
+35,13,64,Green Wool
+35,14,64,Red Wool
+35,15,64,Black Wool
+37,0,64,Flower
+38,0,64,Rose
+39,0,64,Mushroom
+40,0,64,Mushroom
+41,0,64,Block of Gold
+42,0,64,Block of Iron
+44,0,64,Stone Slab
+44,1,64,Sandstone Slab
+44,3,64,Cobblestone Slab
+44,4,64,Bricks Slab
+44,5,64,Stone Bricks Slab
+44,6,64,Nether Brick Slab
+45,0,64,Bricks
+46,0,64,TNT
+47,0,64,Bookshelf
+48,0,64,Moss Stone
+49,0,64,Obsidian
+50,0,64,Torch
+53,0,64,Oak Wood Stairs
+54,0,64,Chest
+56,0,64,Diamond Ore
+57,0,64,Block of Diamond
+58,0,64,Crafting Table
+61,0,64,Furnace
+65,0,64,Ladder
+66,0,64,Rail
+67,0,64,Stone Stairs
+69,0,64,Lever
+70,0,64,Pressure Plate
+72,0,64,Pressure Plate
+73,0,64,Redstone Ore
+76,0,64,Redstone Torch
+77,0,64,Button
+78,0,64,Snow
+79,0,64,Ice
+79,1,64,Ice (Unmelting)
+80,0,64,Snow
+81,0,64,Cactus
+82,0,64,Clay
+84,0,64,Jukebox
+85,0,64,Fence
+86,0,64,Pumpkin
+87,0,64,Netherrack
+88,0,64,Soul Sand
+89,0,64,Glowstone
+91,0,64,Jack 'o' Lantern
+96,0,64,Trapdoor
+97,0,64,Stone Monster Egg
+97,1,64,Cobblestone Monster Egg
+97,2,64,Stone Brick Monster Egg
+98,0,64,Stone Bricks
+98,1,64,Mossy Stone Bricks
+98,2,64,Cracked Stone Bricks
+98,3,64,Chiseled Stone Bricks
+101,0,64,Iron Bars
+102,0,64,Glass Pane
+103,0,64,Melon
+106,0,64,Vines
+107,0,64,Fence Gate
+108,0,64,Brick Stairs
+109,0,64,Stone Brick Stairs
+110,0,64,Mycelium
+111,0,64,Lily Pad
+112,0,64,Nether Brick
+113,0,64,Nether Brick Fence
+114,0,64,Nether Brick Stairs
+116,0,64,Enchantment Table
+120,0,64,End Portal
+121,0,64,End Stone
+123,0,64,Redstone Lamp
+126,0,64,Oak Wood Slab
+126,1,64,Spruce Wood Slab
+126,2,64,Birch Wood Slab
+126,3,64,Jungle Wood Slab
+128,0,64,Sandstone Stairs
+129,0,64,Emerald Ore
+131,0,64,Tripwire Hook
+133,0,64,Block of Emerald
+134,0,64,Spruce Wood Stairs
+135,0,64,Birch Wood Stairs
+136,0,64,Jungle Wood Stairs
+138,0,64,Beacon
+139,0,64,Cobblestone Wall
+139,1,64,Mossy Cobblestone Wall
+143,0,64,Button
+145,0,64,Anvil
+145,1,64,Slightly Damaged Anvil
+145,2,64,Very Damaged Anvil
+150,0,64,Mining Well
+152,0,64,Autocrafting Table
+153,0,64,Quarry
+154,0,64,Land Mark
+155,0,64,Filler
+157,0,64,Builder
+158,0,64,Architect Table
+161,0,64,Redstone Engine
+161,1,64,Stirling Engine
+161,2,64,Combustion Engine
+164,0,64,Pump
+165,0,64,Tank
+167,0,64,Refinery
+168,0,64,Blueprint Library
+169,0,64,Laser
+170,0,64,Assembly Table
+170,1,64,Advanced Crafting Table
+171,0,64,Path Marker
+172,0,64,Hopper
+181,0,64,Iron Chest
+181,1,64,Gold Chest
+181,2,64,Diamond Chest
+181,3,64,Copper Chest
+181,4,64,Silver Chest
+181,5,64,Crystal Chest
+181,6,64,Obsidian Chest
+183,0,64,Low Voltage Solar Array
+183,1,64,Medium Voltage Solar Array
+183,2,64,High Voltage Solar Array
+192,0,64,Thermal Monitor
+192,1,64,Industrial Alarm
+192,2,64,Howler Alarm
+192,3,64,Remote Thermal Monitor
+192,4,64,Industrial Information Panel
+192,5,64,Information Panel Extender
+192,6,64,Energy Counter
+192,7,64,Average Counter
+192,8,64,Range Trigger
+194,0,64,Silver Block
+194,1,64,Tin Block
+194,2,64,Copper Block
+194,3,64,Nikolite Block
+194,4,64,Coal Block
+194,5,64,Redstone Block
+194,6,64,Blue Alloy Block
+194,7,64,Red Alloy Block
+194,8,64,Brass Block
+194,9,64,Charcoal Block
+200,0,64,Bookstand
+203,0,64,Crystal
+206,0,64,Book Receptacle
+207,0,64,Computer
+207,16384,64,Advanced Computer
+208,0,64,Disk Drive
+208,3,64,Printer
+208,2,64,Monitor
+208,4,64,Advanced Monitor
+208,1,64,Wireless Modem
+209,0,64,Turtle
+210,3,64,Melee Turtle
+210,201,64,Liquid Turtle
+210,4,64,Digging Turtle
+210,200,64,Engineering Turtle
+209,1,64,Mining Turtle
+210,6,64,Felling Turtle
+210,7,64,Farming Turtle
+209,2,64,Wireless Turtle
+210,258,64,Wireless Crafty Turtle
+210,259,64,Wireless Melee Turtle
+210,457,64,Wireless Liquid Turtle
+210,260,64,Wireless Digging Turtle
+210,456,64,Wireless Engineering Turtle
+209,3,64,Wireless Mining Turtle
+210,262,64,Wireless Felling Turtle
+210,263,64,Wireless Farming Turtle
+210,436,64,Wireless Sensor Turtle
+210,512,64,Crafty Turtle
+210,515,64,Crafty Melee Turtle
+210,713,64,Crafty Liquid Turtle
+210,516,64,Crafty Digging Turtle
+210,712,64,Crafty Engineering Turtle
+210,517,64,Crafty Mining Turtle
+210,518,64,Crafty Felling Turtle
+210,519,64,Crafty Farming Turtle
+210,46080,64,Sensor Turtle
+210,46083,64,Sensor Melee Turtle
+210,46281,64,Sensor Liquid Turtle
+210,46084,64,Sensor Digging Turtle
+210,46280,64,Sensor Engineering Turtle
+210,46085,64,Sensor Mining Turtle
+210,46086,64,Sensor Felling Turtle
+210,46087,64,Sensor Farming Turtle
+213,0,64,Unraveled Fabric
+216,0,64,Iron Scaffold
+218,0,64,Crop
+219,0,64,Luminator
+220,0,64,Scaffold
+222,0,64,Construction Foam
+223,0,64,Teleporter
+223,1,64,Tesla Coil
+223,2,64,Crop-Matron
+224,0,64,Copper Block
+224,1,64,Tin Block
+224,2,64,Bronze Block
+224,3,64,Uranium Block
+225,0,64,Personal Safe
+225,1,64,Trade-O-Mat
+225,2,64,Energy-O-Mat
+227,0,64,BatBox
+227,1,64,MFE
+227,2,64,MFSU
+227,3,64,LV-Transformer
+227,4,64,MV-Transformer
+227,5,64,HV-Transformer
+230,0,64,Reinforced Glass
+231,0,64,Reinforced Stone
+232,0,64,Iron Fence
+233,0,64,Reactor Chamber
+234,0,64,Rubber Sheet
+237,0,64,Nuke
+238,0,64,Wireless Receiver
+238,256,64,Wireless Transmitter
+238,512,64,Wireless Jammer
+239,0,64,Industrial TNT
+241,0,64,Rubber Tree Sapling
+242,0,64,Leaves
+243,0,64,Rubber Wood
+245,0,64,Mining Pipe
+246,0,64,Generator
+246,1,64,Geothermal Generator
+246,2,64,Water Mill
+246,3,64,Solar Panel
+246,4,64,Wind Mill
+246,5,64,Nuclear Reactor
+247,0,64,Uranium Ore
+249,0,64,Leaves
+249,1,64,Leaves
+249,2,64,Leaves
+249,3,64,Leaves
+250,0,64,Machine Block
+250,1,64,Iron Furnace
+250,2,64,Electric Furnace
+250,3,64,Macerator
+250,4,64,Extractor
+250,5,64,Compressor
+250,6,64,Canning Machine
+250,7,64,Miner
+250,8,64,Pump
+250,9,64,Magnetizer
+250,10,64,Electrolyzer
+250,11,64,Recycler
+250,12,64,Advanced Machine Block
+250,13,64,Induction Furnace
+250,14,64,Mass Fabricator
+250,15,64,Terraformer
+251,0,64,Ender Chest
+251,4096,64,Ender Tank
+253,0,64,Indigo Flower
+255,0,64,Marble
+255,1,64,Basalt
+255,2,64,Marble Brick
+255,3,64,Basalt Cobblestone
+255,4,64,Basalt Brick
+255,5,64,Chiseled Basalt Brick
+255,6,64,Basalt Paver
+256,0,1,Iron Shovel
+257,0,1,Iron Pickaxe
+258,0,1,Iron Axe
+259,0,1,Flint and Steel
+260,0,64,Apple
+261,0,1,Bow
+262,0,64,Arrow
+263,0,64,Coal
+263,1,64,Charcoal
+264,0,64,Diamond
+265,0,64,Iron Ingot
+266,0,64,Gold Ingot
+267,0,1,Iron Sword
+268,0,1,Wooden Sword
+269,0,1,Wooden Shovel
+270,0,1,Wooden Pickaxe
+271,0,1,Wooden Axe
+272,0,1,Stone Sword
+273,0,1,Stone Shovel
+274,0,1,Stone Pickaxe
+275,0,1,Stone Axe
+276,0,1,Diamond Sword
+277,0,1,Diamond Shovel
+278,0,1,Diamond Pickaxe
+279,0,1,Diamond Axe
+280,0,64,Stick
+281,0,64,Bowl
+282,0,1,Mushroom Stew
+283,0,1,Golden Sword
+284,0,1,Golden Shovel
+285,0,1,Golden Pickaxe
+286,0,1,Golden Axe
+287,0,64,String
+288,0,64,Feather
+289,0,64,Gunpowder
+290,0,1,Wooden Hoe
+291,0,1,Stone Hoe
+292,0,1,Iron Hoe
+293,0,1,Diamond Hoe
+294,0,1,Golden Hoe
+295,0,64,Seeds
+296,0,64,Wheat
+297,0,64,Bread
+298,0,1,Leather Cap
+299,0,1,Leather Tunic
+300,0,1,Leather Pants
+301,0,1,Leather Boots
+302,0,1,Chain Helmet
+303,0,1,Chain Chestplate
+304,0,1,Chain Leggings
+305,0,1,Chain Boots
+306,0,1,Iron Helmet
+307,0,1,Iron Chestplate
+308,0,1,Iron Leggings
+309,0,1,Iron Boots
+310,0,1,Diamond Helmet
+311,0,1,Diamond Chestplate
+312,0,1,Diamond Leggings
+313,0,1,Diamond Boots
+314,0,1,Golden Helmet
+315,0,1,Golden Chestplate
+316,0,1,Golden Leggings
+317,0,1,Golden Boots
+318,0,64,Flint
+319,0,64,Raw Porkchop
+320,0,64,Cooked Porkchop
+321,0,64,Painting
+322,0,64,Golden Apple
+322,1,64,Golden Apple
+323,0,16,Sign
+324,0,1,Wooden Door
+325,0,16,Bucket
+326,0,1,Water Bucket
+327,0,1,Lava Bucket
+328,0,1,Minecart
+329,0,1,Saddle
+330,0,1,Iron Door
+331,0,64,Redstone
+332,0,16,Snowball
+333,0,1,Boat
+334,0,64,Leather
+335,0,1,Milk
+336,0,64,Brick
+337,0,64,Clay
+338,0,64,Sugar Canes
+339,0,64,Paper
+340,0,64,Book
+341,0,64,Slimeball
+342,0,1,Minecart with Chest
+343,0,1,Minecart with Furnace
+344,0,16,Egg
+345,0,64,Compass
+346,0,1,Fishing Rod
+347,0,64,Clock
+348,0,64,Glowstone Dust
+349,0,64,Raw Fish
+350,0,64,Cooked Fish
+351,0,64,Ink Sac
+351,1,64,Rose Red
+351,2,64,Cactus Green
+351,3,64,Cocoa Beans
+351,4,64,Lapis Lazuli
+351,5,64,Purple Dye
+351,6,64,Cyan Dye
+351,7,64,Light Gray Dye
+351,8,64,Gray Dye
+351,9,64,Pink Dye
+351,10,64,Lime Dye
+351,11,64,Dandelion Yellow
+351,12,64,Light Blue Dye
+351,13,64,Magenta Dye
+351,14,64,Orange Dye
+351,15,64,Bone Meal
+352,0,64,Bone
+353,0,64,Sugar
+354,0,1,Cake
+355,0,1,Bed
+356,0,64,Redstone Repeater
+357,0,64,Cookie
+359,0,1,Shears
+360,0,64,Melon
+361,0,64,Pumpkin Seeds
+362,0,64,Melon Seeds
+363,0,64,Raw Beef
+364,0,64,Steak
+365,0,64,Raw Chicken
+366,0,64,Cooked Chicken
+367,0,64,Rotten Flesh
+368,0,16,Ender Pearl
+369,0,64,Blaze Rod
+370,0,64,Ghast Tear
+371,0,64,Gold Nugget
+372,0,64,Nether Wart
+373,0,1,Water Bottle
+373,16273,1,Potion of Regeneration
+373,16274,1,Potion of Swiftness
+373,16307,1,Potion of Fire Resistance
+373,16276,1,Potion of Poison
+373,16341,1,Potion of Healing
+373,16310,1,Potion of Night Vision
+373,16312,1,Potion of Weakness
+373,16281,1,Potion of Strength
+373,16314,1,Potion of Slowness
+373,16348,1,Potion of Harming
+373,16318,1,Potion of Invisibility
+373,16305,1,Potion of Regeneration
+373,16306,1,Potion of Swiftness
+373,16308,1,Potion of Poison
+373,16373,1,Potion of Healing
+373,16313,1,Potion of Strength
+373,16380,1,Potion of Harming
+373,16337,1,Potion of Regeneration
+373,16338,1,Potion of Swiftness
+373,16371,1,Potion of Fire Resistance
+373,16340,1,Potion of Poison
+373,16374,1,Potion of Night Vision
+373,16376,1,Potion of Weakness
+373,16345,1,Potion of Strength
+373,16378,1,Potion of Slowness
+373,16382,1,Potion of Invisibility
+373,16369,1,Potion of Regeneration
+373,16370,1,Potion of Swiftness
+373,16372,1,Potion of Poison
+373,16377,1,Potion of Strength
+373,32657,1,Splash Potion of Regeneration
+373,32658,1,Splash Potion of Swiftness
+373,32691,1,Splash Potion of Fire Resistance
+373,32660,1,Splash Potion of Poison
+373,32725,1,Splash Potion of Healing
+373,32694,1,Splash Potion of Night Vision
+373,32696,1,Splash Potion of Weakness
+373,32665,1,Splash Potion of Strength
+373,32698,1,Splash Potion of Slowness
+373,32732,1,Splash Potion of Harming
+373,32702,1,Splash Potion of Invisibility
+373,32689,1,Splash Potion of Regeneration
+373,32690,1,Splash Potion of Swiftness
+373,32692,1,Splash Potion of Poison
+373,32757,1,Splash Potion of Healing
+373,32697,1,Splash Potion of Strength
+373,32764,1,Splash Potion of Harming
+373,32721,1,Splash Potion of Regeneration
+373,32722,1,Splash Potion of Swiftness
+373,32755,1,Splash Potion of Fire Resistance
+373,32724,1,Splash Potion of Poison
+373,32758,1,Splash Potion of Night Vision
+373,32760,1,Splash Potion of Weakness
+373,32729,1,Splash Potion of Strength
+373,32762,1,Splash Potion of Slowness
+373,32766,1,Splash Potion of Invisibility
+373,32753,1,Splash Potion of Regeneration
+373,32754,1,Splash Potion of Swiftness
+373,32756,1,Splash Potion of Poison
+373,32761,1,Splash Potion of Strength
+374,0,64,Glass Bottle
+375,0,64,Spider Eye
+376,0,64,Fermented Spider Eye
+377,0,64,Blaze Powder
+378,0,64,Magma Cream
+379,0,64,Brewing Stand
+380,0,64,Cauldron
+381,0,64,Eye of Ender
+382,0,64,Glistering Melon
+383,50,64,Spawn Creeper
+383,51,64,Spawn Skeleton
+383,52,64,Spawn Spider
+383,54,64,Spawn Zombie
+383,55,64,Spawn Slime
+383,56,64,Spawn Ghast
+383,57,64,Spawn Zombie Pigman
+383,58,64,Spawn Enderman
+383,59,64,Spawn Cave Spider
+383,60,64,Spawn Silverfish
+383,61,64,Spawn Blaze
+383,62,64,Spawn Magma Cube
+383,65,64,Spawn Bat
+383,66,64,Spawn Witch
+383,90,64,Spawn Pig
+383,91,64,Spawn Sheep
+383,92,64,Spawn Cow
+383,93,64,Spawn Chicken
+383,94,64,Spawn Squid
+383,95,64,Spawn Wolf
+383,96,64,Spawn Mooshroom
+383,98,64,Spawn Ocelot
+383,120,64,Spawn Villager
+384,0,64,Bottle o' Enchanting
+385,0,64,Fire Charge
+386,0,1,Book and Quill
+388,0,64,Emerald
+389,0,64,Item Frame
+390,0,64,Flower Pot
+391,0,64,Carrot
+392,0,64,Potato
+393,0,64,Baked Potato
+394,0,64,Poisonous Potato
+395,0,64,Empty Map
+396,0,64,Golden Carrot
+397,0,64,Skeleton Skull
+397,1,64,Wither Skeleton Skull
+397,2,64,Zombie Head
+397,3,64,Head
+397,4,64,Creeper Head
+398,0,1,Carrot on a Stick
+399,0,64,Nether Star
+400,0,64,Pumpkin Pie
+402,0,64,Firework Star
+541,0,64,Cargo manager
+542,0,64,Cart assembler
+543,0,64,Junction rail
+544,0,64,Advanced detector rail
+545,0,64,Module Toggler
+546,0,64,Cargo Distributor
+547,0,64,Detector Manager
+548,0,64,Upgrade: Batteries
+548,1,64,Upgrade: Power Crystal
+548,2,64,Upgrade: Module knowledge
+548,3,64,Upgrade: Industrial espionage
+548,4,64,Upgrade: Experienced assembler
+548,5,64,Upgrade: New Era
+548,6,64,Upgrade: CO2 friendly
+548,7,64,Upgrade: Generic engine
+548,8,64,Upgrade: Module input
+548,9,64,Upgrade: Production line
+548,10,64,Upgrade: Cart Deployer
+548,11,64,Upgrade: Cart Modifier
+548,12,64,Upgrade: Cart Crane
+548,13,64,Upgrade: Redstone Control
+548,14,64,Upgrade: Creative Mode
+548,15,64,Upgrade: Quick Demolisher
+548,16,64,Upgrade: Entropy
+751,0,64,Alloy Furnace
+751,3,64,Project Table
+751,1,64,Blulectric Furnace
+751,2,64,Buffer
+751,4,64,Blulectric Alloy Furnace
+751,5,64,Charging Bench
+753,0,64,Timer
+753,1,64,Sequencer
+753,2,64,State Cell
+753,256,64,RS Latch
+753,257,64,NOR Gate
+753,258,64,OR Gate
+753,259,64,NAND Gate
+753,260,64,AND Gate
+753,261,64,XNOR Gate
+753,262,64,XOR Gate
+753,263,64,Pulse Former
+753,264,64,Toggle Latch
+753,265,64,NOT Gate
+753,266,64,Buffer Gate
+753,267,64,Multiplexer
+753,268,64,Repeater
+753,269,64,Synchronizer
+753,270,64,Randomizer
+753,271,64,Transparent Latch
+753,272,64,Light Sensor
+753,512,64,Null Cell
+753,513,64,Invert Cell
+753,514,64,Non-Invert Cell
+753,768,64,Counter
+753,1024,64,Bus Transceiver
+754,0,64,Ruby Block
+754,1,64,Green Sapphire Block
+754,2,64,Sapphire Block
+754,3,64,Silver Block
+754,4,64,Tin Block
+754,5,64,Copper Block
+757,0,64,White Lamp
+757,1,64,Orange Lamp
+757,2,64,Magenta Lamp
+757,3,64,Light Blue Lamp
+757,4,64,Yellow Lamp
+757,5,64,Lime Lamp
+757,6,64,Pink Lamp
+757,7,64,Gray Lamp
+757,8,64,Light Gray Lamp
+757,9,64,Cyan Lamp
+757,10,64,Purple Lamp
+757,11,64,Blue Lamp
+757,12,64,Brown Lamp
+757,13,64,Green Lamp
+757,14,64,Red Lamp
+757,15,64,Black Lamp
+758,0,64,Inverted White Lamp
+758,1,64,Inverted Orange Lamp
+758,2,64,Inverted Magenta Lamp
+758,3,64,Inverted Light Blue Lamp
+758,4,64,Inverted Yellow Lamp
+758,5,64,Inverted Lime Lamp
+758,6,64,Inverted Pink Lamp
+758,7,64,Inverted Gray Lamp
+758,8,64,Inverted Light Gray Lamp
+758,9,64,Inverted Cyan Lamp
+758,10,64,Inverted Purple Lamp
+758,11,64,Inverted Blue Lamp
+758,12,64,Inverted Brown Lamp
+758,13,64,Inverted Green Lamp
+758,14,64,Inverted Red Lamp
+758,15,64,Inverted Black Lamp
+761,0,64,Monitor
+761,1,64,Central Processing Unit
+761,2,64,Disk Drive
+762,0,64,IO Expander
+763,0,64,Deployer
+763,1,64,Block Breaker
+763,2,64,Transposer
+763,3,64,Filter
+763,4,64,Item Detector
+763,5,64,Sorting Machine
+763,6,64,Battery Box
+763,7,64,Frame Motor
+763,8,64,Retriever
+763,9,64,Kinetic Generator
+763,10,64,Regulator
+763,11,64,Thermopile
+763,12,64,Igniter
+763,13,64,Assembler
+763,14,64,Ejector
+763,15,64,Relay
+764,0,64,Solar Panel
+764,1,64,Pump
+764,2,64,Accelerator
+764,3,64,Grate
+764,4,64,Voltage Transformer
+765,0,64,Support Frame
+765,2,64,Tube Frame
+765,3,64,Redstone Tube Frame
+766,0,64,Sortron
+766,1,64,Manager
+767,0,64,Blulectric Engine
+768,0,64,White Fixture
+768,1,64,Orange Fixture
+768,2,64,Magenta Fixture
+768,3,64,Light Blue Fixture
+768,4,64,Yellow Fixture
+768,5,64,Lime Fixture
+768,6,64,Pink Fixture
+768,7,64,Gray Fixture
+768,8,64,Light Gray Fixture
+768,9,64,Cyan Fixture
+768,10,64,Purple Fixture
+768,11,64,Blue Fixture
+768,12,64,Brown Fixture
+768,13,64,Green Fixture
+768,14,64,Red Fixture
+768,15,64,Black Fixture
+768,16,64,Inverted White Fixture
+768,17,64,Inverted Orange Fixture
+768,18,64,Inverted Magenta Fixture
+768,19,64,Inverted Light Blue Fixture
+768,20,64,Inverted Yellow Fixture
+768,21,64,Inverted Lime Fixture
+768,22,64,Inverted Pink Fixture
+768,23,64,Inverted Gray Fixture
+768,24,64,Inverted Light Gray Fixture
+768,25,64,Inverted Cyan Fixture
+768,26,64,Inverted Purple Fixture
+768,27,64,Inverted Blue Fixture
+768,28,64,Inverted Brown Fixture
+768,29,64,Inverted Green Fixture
+768,30,64,Inverted Red Fixture
+768,31,64,Inverted Black Fixture
+768,32,64,White Cage Lamp
+768,33,64,Orange Cage Lamp
+768,34,64,Magenta Cage Lamp
+768,35,64,Light Blue Cage Lamp
+768,36,64,Yellow Cage Lamp
+768,37,64,Lime Cage Lamp
+768,38,64,Pink Cage Lamp
+768,39,64,Gray Cage Lamp
+768,40,64,Light Gray Cage Lamp
+768,41,64,Cyan Cage Lamp
+768,42,64,Purple Cage Lamp
+768,43,64,Blue Cage Lamp
+768,44,64,Brown Cage Lamp
+768,45,64,Green Cage Lamp
+768,46,64,Red Cage Lamp
+768,47,64,Black Cage Lamp
+768,48,64,Inverted White Cage Lamp
+768,49,64,Inverted Orange Cage Lamp
+768,50,64,Inverted Magenta Cage Lamp
+768,51,64,Inverted Light Blue Cage Lamp
+768,52,64,Inverted Yellow Cage Lamp
+768,53,64,Inverted Lime Cage Lamp
+768,54,64,Inverted Pink Cage Lamp
+768,55,64,Inverted Gray Cage Lamp
+768,56,64,Inverted Light Gray Cage Lamp
+768,57,64,Inverted Cyan Cage Lamp
+768,58,64,Inverted Purple Cage Lamp
+768,59,64,Inverted Blue Cage Lamp
+768,60,64,Inverted Brown Cage Lamp
+768,61,64,Inverted Green Cage Lamp
+768,62,64,Inverted Red Cage Lamp
+768,63,64,Inverted Black Cage Lamp
+900,0,64,ME Cable - Blue
+900,1,64,ME Pattern Provider
+900,2,64,ME Controller
+900,3,64,ME Drive
+900,4,64,ME Pattern Encoder
+900,5,64,ME Wireless Access Point
+900,6,64,ME Access Terminal
+900,7,64,ME Chest
+900,8,64,ME Interface
+900,9,64,ME Preformatter
+900,10,64,ME Cable - Black
+900,11,64,ME Cable - White
+900,12,64,ME Cable - Brown
+900,13,64,ME Cable - Red
+900,14,64,ME Cable - Yellow
+900,15,64,ME Cable - Green
+901,0,64,ME Export Bus
+901,1,64,ME Import Bus
+901,3,64,ME Crafting Terminal
+901,4,64,ME Level Emitter
+901,5,64,ME Crafting CPU
+901,6,64,ME Heat Vent
+901,7,64,ME Assembler Containment Wall
+901,8,64,ME Dark Cable
+901,9,64,ME Storage Bus
+901,10,64,ME IO Port
+901,11,64,ME Crafting Monitor
+901,12,64,ME Storage Monitor
+901,13,64,ME Cable
+902,0,64,Quartz Crystal
+902,1,64,Quartz Grind Stone
+1101,0,64,Soldering Station
+1101,1,64,Logistics Power Junction
+1285,0,64,Book Binder
+1522,0,64,
+1952,0,64,Programmable filter
+1952,1,64,Industrial tesla coil
+1952,2,64,Upgrade multiplexer
+1952,3,64,Tesla range upgrade
+1952,4,64,EMP upgrade
+1952,5,64,Tesla speed upgrade
+1952,6,64,Loot collector
+1952,7,64,Forcefield filter
+1952,8,64,Item detection filter
+1952,9,64,Wavelength shift upgrade
+1952,10,64,Remote potion applicator
+1953,0,64,Forcefield core
+1953,1,64,Area forcefield projector
+1953,2,64,Directional forcefield projector
+1953,3,64,Plate forcefield projector
+1953,4,64,Tube forcefield projector
+1953,5,64,Line projector extender
+1953,6,64,Forcefield EU injector
+1953,7,64,Reactor containment field projector
+1953,8,64,Reactor coolant injector
+1953,9,64,Reactor heat monitor server
+1954,0,64,Reactor heat monitor client
+1954,1,64,Forcefield underwater upgrade
+1954,2,64,Forcefield dome upgrade
+1954,3,64,Forcefield block cutter upgrade
+1954,4,64,Forcefield core storage upgrade
+1954,5,64,Forcefield core range upgrade
+1954,6,64,Forcefield zapper upgrade
+1954,7,64,Forcefield camouflage upgrade
+1954,8,64,Reactor connector
+1954,9,64,Forcefield inhibitor upgrade
+1973,0,64,Fabric of Reality
+1974,0,64,Transdimensional Trapdoor
+2001,0,64,Copper Ore
+2001,1,64,Tin Ore
+2001,2,64,Silver Ore
+2001,3,64,Lead Ore
+2001,4,64,Ferrous Ore
+2002,0,64,Powered Furnace
+2002,1,64,Pulverizer
+2002,2,64,Sawmill
+2002,3,64,Induction Smelter
+2002,4,64,Magma Crucible
+2002,5,64,Liquid Transposer
+2002,6,64,Glacial Precipitator
+2002,7,64,Igneous Extruder
+2002,8,64,Aqueous Accumulator
+2003,0,1,Portable Tank
+2004,0,64,Steam Engine
+2004,1,64,Magmatic Engine
+2005,151,1,Redstone Energy Cell
+2005,1,1,Redstone Energy Cell
+2006,0,64,Redstone Energy Conduit
+2006,4096,64,Liquiduct
+2007,0,64,Energy Tesseract
+2007,1,64,Liquid Tesseract
+2007,2,64,Item Tesseract
+2008,0,64,Hardened Glass
+2009,0,64,White Rockwool
+2009,1,64,Orange Rockwool
+2009,2,64,Magenta Rockwool
+2009,3,64,Light Blue Rockwool
+2009,4,64,Yellow Rockwool
+2009,5,64,Lime Rockwool
+2009,6,64,Pink Rockwool
+2009,7,64,Gray Rockwool
+2009,8,64,Light Gray Rockwool
+2009,9,64,Cyan Rockwool
+2009,10,64,Purple Rockwool
+2009,11,64,Blue Rockwool
+2009,12,64,Brown Rockwool
+2009,13,64,Green Rockwool
+2009,14,64,Red Rockwool
+2009,15,64,Black Rockwool
+2050,5,64,Barrel
+2050,2,64,Craftpacket Maker
+2050,3,64,Craftpacket Stamper
+2050,8,64,Packager
+2050,11,64,Slag Furnace
+2050,0,64,Router
+2050,6,64,Wrathlamp
+19289,2,1,Battery Block
+2050,13,64,Solar Turbine
+2050,22,64,Solar Boiler
+2050,21,64,Steam Turbine
+19286,0,64,Reflective Mirror
+2050,15,64,Furnace Heater
+2050,14,64,Lead Wire
+2050,17,64,Grinder
+2050,18,64,Mixer
+2050,19,64,Crystallizer
+2050,20,64,Clay Sculpture
+2052,0,64,Silver Ore
+2052,1,64,Block of Silver
+2052,2,64,Block of Lead
+2052,3,64,Block of Dark Iron
+2052,4,64,Exo-Modder
+2101,15,64,Mystical Plinth
+2256,0,1,Music Disc
+2257,0,1,Music Disc
+2258,0,1,Music Disc
+2259,0,1,Music Disc
+2260,0,1,Music Disc
+2261,0,1,Music Disc
+2262,0,1,Music Disc
+2263,0,1,Music Disc
+2264,0,1,Music Disc
+2265,0,1,Music Disc
+2266,0,1,Music Disc
+2267,0,1,Music Disc
+2451,0,64,Calcinator
+2452,0,64,Red Water (Flowing)
+2453,0,64,Red Water (Still)
+2477,0,64,Power Armor Tinker Table
+2491,0,64,LV Charging Bench
+2491,1,64,MV Charging Bench
+2491,2,64,HV Charging Bench
+2491,7,64,Adjustable Emitter
+2491,8,64,LV Battery Station
+2491,9,64,MV Battery Station
+2491,10,64,HV Battery Station
+2491,11,64,Storage Monitor
+2850,0,64,Energy Bridge
+2850,2,64,Universal Charger
+2851,0,64,BC Consumer
+2851,1,64,BC Producer
+2852,0,64,IC2 LV Consumer
+2852,1,64,IC2 LV Producer
+2852,2,64,IC2 MV Consumer
+2852,3,64,IC2 MV Producer
+2852,4,64,IC2 HV Consumer
+2852,5,64,IC2 HV Producer
+2852,6,64,IC2 EV Consumer
+2852,7,64,IC2 EV Producer
+2855,0,64,Factorization Consumer
+2855,1,64,Factorization Producer
+3120,0,64,Planter
+3120,1,64,Fisher
+3120,2,64,Harvester
+3120,3,64,Rancher
+3120,4,64,Fertilizer
+3120,5,64,Veterinary Station
+3120,6,64,Item Collector
+3120,7,64,Block Breaker
+3120,8,64,Weather Collector
+3120,9,64,Sludge Boiler
+3120,10,64,Sewage Collector
+3120,11,64,Composter
+3120,12,64,Breeder
+3120,13,64,Grinder
+3120,14,64,Auto-Enchanter
+3120,15,64,Chronotyper
+3121,0,64,White Conveyor Belt
+3121,1,64,Orange Conveyor Belt
+3121,2,64,Magenta Conveyor Belt
+3121,3,64,Light Blue Conveyor Belt
+3121,4,64,Yellow Conveyor Belt
+3121,5,64,Lime Conveyor Belt
+3121,6,64,Pink Conveyor Belt
+3121,7,64,Gray Conveyor Belt
+3121,8,64,Light Gray Conveyor Belt
+3121,9,64,Cyan Conveyor Belt
+3121,10,64,Purple Conveyor Belt
+3121,11,64,Blue Conveyor Belt
+3121,12,64,Brown Conveyor Belt
+3121,13,64,Green Conveyor Belt
+3121,14,64,Red Conveyor Belt
+3121,15,64,Black Conveyor Belt
+3121,16,64,Conveyor Belt
+3122,0,64,Rubber Wood
+3123,0,64,Rubber Leaves
+3124,0,64,Rubber Sapling
+3125,0,64,Cargo Dropoff Rail
+3126,0,64,Cargo Pickup Rail
+3127,0,64,Passenger Dropoff Rail
+3128,0,64,Passenger Pickup Rail
+3129,0,64,White Stained Glass
+3129,1,64,Orange Stained Glass
+3129,2,64,Magenta Stained Glass
+3129,3,64,Light Blue Stained Glass
+3129,4,64,Yellow Stained Glass
+3129,5,64,Lime Stained Glass
+3129,6,64,Pink Stained Glass
+3129,7,64,Gray Stained Glass
+3129,8,64,Light Gray Stained Glass
+3129,9,64,Cyan Stained Glass
+3129,10,64,Purple Stained Glass
+3129,11,64,Blue Stained Glass
+3129,12,64,Brown Stained Glass
+3129,13,64,Green Stained Glass
+3129,14,64,Red Stained Glass
+3129,15,64,Black Stained Glass
+3130,0,64,White Stained Glass Pane
+3130,1,64,Orange Stained Glass Pane
+3130,2,64,Magenta Stained Glass Pane
+3130,3,64,Light Blue Stained Glass Pane
+3130,4,64,Yellow Stained Glass Pane
+3130,5,64,Lime Stained Glass Pane
+3130,6,64,Pink Stained Glass Pane
+3130,7,64,Gray Stained Glass Pane
+3130,8,64,Light Gray Stained Glass Pane
+3130,9,64,Cyan Stained Glass Pane
+3130,10,64,Purple Stained Glass Pane
+3130,11,64,Blue Stained Glass Pane
+3130,12,64,Brown Stained Glass Pane
+3130,13,64,Green Stained Glass Pane
+3130,14,64,Red Stained Glass Pane
+3130,15,64,Black Stained Glass Pane
+3131,0,64,Ejector
+3131,1,64,Item Router
+3131,2,64,Liquid Router
+3131,3,64,Deep Storage Unit
+3131,4,64,LiquiCrafter
+3131,5,64,Lava Fabricator
+3131,6,64,Oil Fabricator
+3131,7,64,Auto-Jukebox
+3131,8,64,Unifier
+3131,9,64,Auto-Spawner
+3131,10,64,Bio Reactor
+3131,11,64,BioFuel Generator
+3132,0,64,Road
+3132,1,64,Road Light
+3132,4,64,Road Light (Inverted)
+3133,0,64,Glowstone Bricks
+3133,1,64,Ice Bricks
+3133,2,64,Lapis Lazuli Bricks
+3133,3,64,Obsidian Bricks
+3133,4,64,Paved Stone Bricks
+3133,5,64,Snow Bricks
+3892,0,64,Gauge
+3893,0,64,Sensor Peripheral
+4056,0,64,Wood Gear
+4057,0,64,Stone Gear
+4058,0,64,Iron Gear
+4059,0,64,Gold Gear
+4060,0,64,Diamond Gear
+4061,0,1,Template
+4062,0,64,Wrench
+4063,0,1,Oil Bucket
+4064,0,64,Fuel
+4065,0,64,Pipe Waterproof
+4066,0,1,Fuel Bucket
+4067,0,64,Gate
+4067,1,64,Iron AND Gate
+4067,2,64,Iron OR Gate
+4067,3,64,Gold AND Gate
+4067,4,64,Gold OR Gate
+4067,5,64,Diamond AND Gate
+4067,6,64,Diamond OR Gate
+4068,0,64,Autarchic Gate
+4068,1,64,Autarchic Iron AND Gate
+4068,2,64,Autarchic Iron OR Gate
+4068,3,64,Autarchic Gold AND Gate
+4068,4,64,Autarchic Gold OR Gate
+4068,5,64,Autarchic Diamond AND Gate
+4068,6,64,Autarchic Diamond OR Gate
+4069,0,64,Red Pipe Wire
+4070,0,64,Blue Pipe Wire
+4071,0,64,Green Pipe Wire
+4072,0,64,Yellow Pipe Wire
+4073,0,64,Redstone Chipset
+4073,1,64,Redstone Iron Chipset
+4073,2,64,Redstone Golden Chipset
+4073,3,64,Redstone Diamond Chipset
+4073,4,64,Pulsating Chipset
+4074,0,1,Blueprint
+4077,0,64,Teleport Tether
+4090,0,64,Dimensional Anchor
+4092,0,64,Buffer
+4092,1,64,Automatic Crafting Table MkII
+4092,2,64,Black Hole Chest
+4092,3,64,Incinerator
+4092,4,64,Duplicator
+4092,5,64,Retrievulator
+4092,6,64,Block breaker
+4092,7,64,Liquid disposer
+4092,8,64,Liquid duplicator
+4092,9,64,Online player detector
+4094,0,64,Lectern
+4095,0,64,Link Modifier
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4256,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4257,0,1,Floppy Disk
+4258,0,1,Printed Page
+4258,1,1,Printed Pages
+4258,2,1,Printed Book
+4286,0,64,Redstone Waterproof Pipe
+4287,0,64,Redstone Transport Pipe
+4288,0,64,Insertion Transport Pipe
+4289,0,64,Adv. Wooden Transport Pipe
+4290,0,64,Distribution Transport Pipe
+4291,0,64,Phased Transport Pipe
+4292,0,64,Phased Waterproof Pipe
+4293,0,64,Phased Conductive Pipe
+4294,0,64,Closed Transport Pipe
+4295,0,64,Switch Transport Pipe
+4296,0,64,Switch Waterproof Pipe
+4297,0,64,Water Pump Pipe
+4298,0,64,Switch Conductive Pipe
+4306,0,64,Wooden Transport Pipe
+4307,0,64,Cobblestone Transport Pipe
+4308,0,64,Stone Transport Pipe
+4309,0,64,Iron Transport Pipe
+4310,0,64,Golden Transport Pipe
+4311,0,64,Diamond Transport Pipe
+4312,0,64,Obsidian Transport Pipe
+4313,0,64,Wooden Waterproof Pipe
+4314,0,64,Cobblestone Waterproof Pipe
+4315,0,64,Stone Waterproof Pipe
+4316,0,64,Iron Waterproof Pipe
+4317,0,64,Golden Waterproof Pipe
+4320,0,64,Wooden Conductive Pipe
+4322,0,64,Stone Conductive Pipe
+4324,0,64,Golden Conductive Pipe
+4325,0,64,Void Transport Pipe
+4326,0,64,Void Waterproof Pipe
+4327,0,64,Sandstone Transport Pipe
+4328,0,64,Cobblestone Structure Pipe
+4329,0,64,Sandstone Waterproof Pipe
+4336,16,64,Facade: Stone
+4336,32,64,Facade: Grass Block
+4336,48,64,Facade: Dirt
+4336,64,64,Facade: Cobblestone
+4336,80,64,Facade: Oak Wood Planks
+4336,81,64,Facade: Spruce Wood Planks
+4336,82,64,Facade: Birch Wood Planks
+4336,83,64,Facade: Jungle Wood Planks
+4336,192,64,Facade: Sand
+4336,208,64,Facade: Gravel
+4336,224,64,Facade: Gold Ore
+4336,240,64,Facade: Iron Ore
+4336,256,64,Facade: Coal Ore
+4336,272,64,Facade: Oak Wood
+4336,273,64,Facade: Spruce Wood
+4336,274,64,Facade: Birch Wood
+4336,275,64,Facade: Jungle Wood
+4336,320,64,Facade: Glass
+4336,336,64,Facade: Lapis Lazuli Ore
+4336,352,64,Facade: Lapis Lazuli Block
+4336,384,64,Facade: Sandstone
+4336,385,64,Facade: Chiseled Sandstone
+4336,386,64,Facade: Smooth Sandstone
+4336,560,64,Facade: Wool
+4336,561,64,Facade: Orange Wool
+4336,562,64,Facade: Magenta Wool
+4336,563,64,Facade: Light Blue Wool
+4336,564,64,Facade: Yellow Wool
+4336,565,64,Facade: Lime Wool
+4336,566,64,Facade: Pink Wool
+4336,567,64,Facade: Gray Wool
+4336,568,64,Facade: Light Gray Wool
+4336,569,64,Facade: Cyan Wool
+4336,570,64,Facade: Purple Wool
+4336,571,64,Facade: Blue Wool
+4336,572,64,Facade: Brown Wool
+4336,573,64,Facade: Green Wool
+4336,574,64,Facade: Red Wool
+4336,656,64,Facade: Block of Gold
+4336,672,64,Facade: Block of Iron
+4336,688,64,Facade: Stone Slab
+4336,689,64,Facade: Sandstone Slab
+4336,690,64,Facade: Wooden Slab
+4336,691,64,Facade: Cobblestone Slab
+4336,692,64,Facade: Bricks Slab
+4336,693,64,Facade: Stone Bricks Slab
+4336,694,64,Facade: Nether Brick Slab
+4336,720,64,Facade: Bricks
+4336,736,64,Facade: TNT
+4336,752,64,Facade: Bookshelf
+4336,768,64,Facade: Moss Stone
+4336,784,64,Facade: Obsidian
+4336,896,64,Facade: Diamond Ore
+4336,912,64,Facade: Block of Diamond
+4336,928,64,Facade: Crafting Table
+4336,1168,64,Facade: Redstone Ore
+4336,1184,64,Facade: Redstone Ore
+4336,1280,64,Facade: Snow
+4336,1312,64,Facade: Clay
+4336,1376,64,Facade: Pumpkin
+4336,1392,64,Facade: Netherrack
+4336,1408,64,Facade: Soul Sand
+4336,1424,64,Facade: Glowstone
+4336,1456,64,Facade: Jack 'o' Lantern
+4336,1552,64,Facade: Stone Monster Egg
+4336,1553,64,Facade: Cobblestone Monster Egg
+4336,1554,64,Facade: Stone Brick Monster Egg
+4336,1568,64,Facade: Stone Bricks
+4336,1569,64,Facade: Mossy Stone Bricks
+4336,1570,64,Facade: Cracked Stone Bricks
+4336,1571,64,Facade: Chiseled Stone Bricks
+4336,1584,64,Facade: Mushroom
+4336,1600,64,Facade: Mushroom
+4336,1648,64,Facade: Melon
+4336,1760,64,Facade: Mycelium
+4336,1792,64,Facade: Nether Brick
+4336,1936,64,Facade: End Stone
+4336,1968,64,Facade: Redstone Lamp
+4336,1984,64,Facade: Redstone Lamp
+4336,2000,64,Facade: Oak Wood Slab
+4336,2001,64,Facade: Spruce Wood Slab
+4336,2002,64,Facade: Birch Wood Slab
+4336,2003,64,Facade: Jungle Wood Slab
+4336,2064,64,Facade: Emerald Ore
+4336,2128,64,Facade: Block of Emerald
+4361,0,1,ME 1k Storage
+4361,7,1,ME 4k Storage
+4361,1,1,ME 16k Storage
+4361,2,1,ME 64k Storage
+4361,4,1,ME Encoded Assembler Pattern
+4361,5,1,ME Wireless Access Terminal
+4362,1,64,Storage Cell
+4362,17,64,Storage Segment
+4362,2,64,Storage Block
+4362,3,64,Storage Cluster
+4362,0,64,Conversion Matrix
+4362,4,64,Wireless Receiver
+4362,5,64,Wireless Booster
+4362,6,64,Quartz Crystal
+4362,7,64,Quartz Dust
+4362,8,64,Iron Dust
+4362,9,64,Gold Dust
+4362,11,64,Wooden Crank
+4362,12,64,Flour
+4362,13,64,Silicon
+4362,14,64,Quartz Fiber
+4362,15,64,Storage Cell Housing
+4362,16,64,ME Blank Pattern
+4362,18,64,ME Basic Processor
+4362,19,64,ME Advanced Processor
+4362,20,64,Basic Processor Assembly
+4362,21,64,Advanced Processor Assembly
+4363,0,1,Entropy Accelerator
+4364,0,1,Vibration Catalyst
+4365,0,1,Quartz Axe
+4366,0,1,Quartz Hoe
+4367,0,1,Quartz Shovel
+4368,0,1,Quartz Pick Axe
+4369,0,1,Quartz Sword
+4370,0,1,Quartz Wrench
+4371,0,1,Quartz Cutting Knife
+5425,0,64,Stable Fabric
+5426,0,1,Warp Door
+5427,0,1,Rift Remover
+5429,0,1,Unstable Door
+5430,0,1,Dimensional Door
+5431,0,1,Rift Signature
+5432,0,1,Rift Blade
+5574,0,64,Red Alloy Ingot
+5574,1,64,Blue Alloy Ingot
+5574,2,64,Brass Ingot
+5574,3,64,Silicon Boule
+5574,4,64,Silicon Wafer
+5574,5,64,Blue-Doped Wafer
+5574,6,64,Red-Doped Wafer
+5574,7,64,Tinplate
+5574,8,64,Fine Copper Wire
+5574,9,64,Fine Iron Wire
+5574,10,64,Copper Coil
+5574,11,64,Blulectric Motor
+5574,12,64,Canvas
+5575,0,1,Diamond Drawplate
+5576,0,64,Indigo Dye
+5577,0,1,Diamond Handsaw
+5578,0,1,Iron Handsaw
+5579,0,64,White Lumar
+5579,1,64,Orange Lumar
+5579,2,64,Magenta Lumar
+5579,3,64,Light Blue Lumar
+5579,4,64,Yellow Lumar
+5579,5,64,Lime Lumar
+5579,6,64,Pink Lumar
+5579,7,64,Gray Lumar
+5579,8,64,Light Gray Lumar
+5579,9,64,Cyan Lumar
+5579,10,64,Purple Lumar
+5579,11,64,Blue Lumar
+5579,12,64,Brown Lumar
+5579,13,64,Green Lumar
+5579,14,64,Red Lumar
+5579,15,64,Black Lumar
+5580,0,64,Iron Nugget
+5580,1,64,Silver Nugget
+5580,2,64,Tin Nugget
+5580,3,64,Copper Nugget
+5581,0,64,Ruby
+5581,1,64,Green Sapphire
+5581,2,64,Sapphire
+5581,3,64,Silver Ingot
+5581,4,64,Tin Ingot
+5581,5,64,Copper Ingot
+5581,6,64,Nikolite
+5582,0,1,Screwdriver
+5586,0,1,BT Battery
+5587,0,1,Sonic Screwdriver
+5588,0,1,Voltmeter
+5589,0,1,Athame
+5590,0,1,Green Sapphire Axe
+5591,0,1,Ruby Axe
+5592,0,1,Sapphire Axe
+5593,0,1,Green Sapphire Handsaw
+5594,0,1,Ruby Handsaw
+5595,0,1,Sapphire Handsaw
+5596,0,1,Green Sapphire Hoe
+5597,0,1,Ruby Hoe
+5598,0,1,Sapphire Hoe
+5599,0,1,Black Paint Brush
+5600,0,1,Blue Paint Brush
+5601,0,1,Brown Paint Brush
+5602,0,1,Cyan Paint Brush
+5604,0,1,Gray Paint Brush
+5605,0,1,Green Paint Brush
+5606,0,1,Light Blue Paint Brush
+5607,0,1,Lime Paint Brush
+5608,0,1,Magenta Paint Brush
+5609,0,1,Orange Paint Brush
+5610,0,1,Pink Paint Brush
+5611,0,1,Purple Paint Brush
+5612,0,1,Red Paint Brush
+5613,0,1,Light Gray Paint Brush
+5614,0,1,White Paint Brush
+5615,0,1,Yellow Paint Brush
+5616,0,1,Black Paint
+5617,0,1,Blue Paint
+5618,0,1,Brown Paint
+5619,0,1,Cyan Paint
+5621,0,1,Gray Paint
+5622,0,1,Green Paint
+5623,0,1,Light Blue Paint
+5624,0,1,Lime Paint
+5625,0,1,Magenta Paint
+5626,0,1,Orange Paint
+5627,0,1,Pink Paint
+5628,0,1,Purple Paint
+5629,0,1,Red Paint
+5630,0,1,Light Gray Paint
+5631,0,1,White Paint
+5632,0,1,Yellow Paint
+5633,0,1,Green Sapphire Pickaxe
+5634,0,1,Ruby Pickaxe
+5635,0,1,Sapphire Pickaxe
+5636,0,64,Flax Seeds
+5637,0,1,Green Sapphire Shovel
+5638,0,1,Ruby Shovel
+5639,0,1,Sapphire Shovel
+5640,0,1,Diamond Sickle
+5641,0,1,Green Sapphire Sickle
+5642,0,1,Gold Sickle
+5643,0,1,Iron Sickle
+5644,0,1,Ruby Sickle
+5645,0,1,Sapphire Sickle
+5646,0,1,Stone Sickle
+5647,0,1,Wood Sickle
+5648,0,1,Green Sapphire Sword
+5649,0,1,Ruby Sword
+5650,0,1,Sapphire Sword
+5651,0,1,Wool Card
+7122,0,64,Sneaky Upgrade (UP)
+7122,1,64,Sneaky Upgrade (DOWN)
+7122,2,64,Sneaky Upgrade (NORTH)
+7122,3,64,Sneaky Upgrade (SOUTH)
+7122,4,64,Sneaky Upgrade (EAST)
+7122,5,64,Sneaky Upgrade (WEST)
+7122,10,64,Disconnection Upgrade (UP)
+7122,11,64,Disconnection Upgrade (DOWN)
+7122,12,64,Disconnection Upgrade (NORTH)
+7122,13,64,Disconnection Upgrade (SOUTH)
+7122,14,64,Disconnection Upgrade (EAST)
+7122,15,64,Disconnection Upgrade (WEST)
+7122,20,64,Item Speed Upgrade
+7122,21,64,Advanced Satellite Upgrade
+7123,0,64,Logistics HUD Bow
+7123,1,64,Logistics HUD Glass
+7123,2,64,Logistics HUD Nose Bridge
+7123,3,64,Nano Hopper
+7124,0,1,Logistics HUD Glasses
+7126,0,1,Logistics Disk
+7127,0,64,Blank module
+7127,1,64,ItemSink module
+7127,2,64,Passive Supplier module
+7127,3,64,Extractor module
+7127,4,64,Polymorphic ItemSink module
+7127,5,64,QuickSort module
+7127,6,64,Terminus module
+7127,7,64,Advanced Extractor module
+7127,103,64,Extractor MK2 module
+7127,107,64,Advanced Extractor MK2
+7127,203,64,Extractor MK3 module
+7127,207,64,Advanced Extractor MK3
+7127,500,64,Provider module
+7127,501,64,Provider module MK2
+7127,300,64,Electric Manager module
+7127,301,64,Electric Buffer module
+7127,8,64,Bee Analyzer module
+7127,9,64,BeeSink module
+7127,10,64,Apiary Refiller module
+7127,11,64,Drone Terminus module
+7127,12,64,Mod Based ItemSink module
+7127,30,64,Thaumic AspectSink module
+7128,0,64,Remote Orderer
+7128,1,64,Remote Orderer
+7128,2,64,Remote Orderer
+7128,3,64,Remote Orderer
+7128,4,64,Remote Orderer
+7128,5,64,Remote Orderer
+7128,6,64,Remote Orderer
+7128,7,64,Remote Orderer
+7128,8,64,Remote Orderer
+7128,9,64,Remote Orderer
+7128,10,64,Remote Orderer
+7128,11,64,Remote Orderer
+7128,12,64,Remote Orderer
+7128,13,64,Remote Orderer
+7128,14,64,Remote Orderer
+7128,15,64,Remote Orderer
+7128,16,64,Remote Orderer
+7130,0,64,Basic Logistics Pipe
+7131,0,64,Request Logistics Pipe
+7132,0,64,Provider Logistics Pipe
+7133,0,64,Crafting Logistics Pipe
+7134,0,64,Satellite Logistics Pipe
+7135,0,64,Supplier Logistics Pipe
+7136,0,64,Builder Supplier Logistics Pipe
+7137,0,64,Logistics Chassis Mk1
+7138,0,64,Logistics Chassis Mk2
+7139,0,64,Logistics Chassis Mk3
+7140,0,64,Logistics Chassis Mk4
+7141,0,64,Logistics Chassis Mk5
+7142,0,64,Liquid Supplier Pipe
+7143,0,64,Crafting Logistics Pipe Mk2
+7144,0,64,Request Logistics Pipe Mk2
+7145,0,64,Remote Orderer Logistics Pipe
+7146,0,64,Provider Logistics Pipe Mk2
+7147,0,64,Bee Analyzer Logistics Pipe
+7148,0,64,BeeSink Logistics Pipe
+7149,0,64,Logistics Inventory System Connector
+7150,0,64,Logistics System Entrance Pipe
+7151,0,64,Logistics System Destination Pipe
+7152,0,64,Crafting Logistics Pipe Mk3
+7153,0,64,Logistics Firewall Pipe
+7156,0,1,Crafting Sign Creator
+7493,0,1,Ender Pouch
+7742,68,64,Tank Sensor Card
+7742,70,64,Dropped Item Sensor Card
+7742,71,64,Sign Sensor Card
+7742,64,64,Inventory Sensor Card
+7742,65,64,Proximity Sensor Card
+7742,66,64,IndustrialCraft 2 Sensor Card
+7742,67,64,BuildCraft Sensor Card
+7742,128,64,Minecart Sensor Card
+7742,131,64,Applied Energistics Sensor Card
+7742,130,64,Sonic Sensor Card
+7742,17,64,Proximity Sensor Card
+7742,16,64,Inventory Sensor Card
+7742,19,64,BuildCraft Sensor Card
+7742,18,64,IndustrialCraft 2 Sensor Card
+7742,21,64,World Sensor Card
+7742,20,64,Tank Sensor Card
+7742,80,64,Minecart Sensor Card
+7742,83,64,Applied Energistics Sensor Card
+7742,23,64,Sign Sensor Card
+7742,82,64,Sonic Sensor Card
+7742,22,64,Dropped Item Sensor Card
+7742,34,64,IndustrialCraft 2 Sensor Card
+7742,35,64,BuildCraft Sensor Card
+7742,32,64,Inventory Sensor Card
+7742,33,64,Proximity Sensor Card
+7742,98,64,Sonic Sensor Card
+7742,38,64,Dropped Item Sensor Card
+7742,99,64,Applied Energistics Sensor Card
+7742,39,64,Sign Sensor Card
+7742,36,64,Tank Sensor Card
+7742,96,64,Minecart Sensor Card
+7742,51,64,BuildCraft Sensor Card
+7742,50,64,IndustrialCraft 2 Sensor Card
+7742,49,64,Proximity Sensor Card
+7742,48,64,Inventory Sensor Card
+7742,115,64,Applied Energistics Sensor Card
+7742,55,64,Sign Sensor Card
+7742,114,64,Sonic Sensor Card
+7742,54,64,Dropped Item Sensor Card
+7742,52,64,Tank Sensor Card
+7742,112,64,Minecart Sensor Card
+7743,242,64,Advanced Amplifier
+7743,240,64,Range Extension Antenna
+7743,241,64,Signal Amplifier
+8956,0,1,Descriptive Book
+8957,0,1,Linking Book
+8958,0,1,Notebook
+8959,0,64,Writing Desk
+8962,0,16,Ink Vial
+9266,0,64,Blank Plan
+9268,0,1,Canvas Bag
+9299,0,1,Seed Bag
+9340,0,1,Wooden Wind Turbine
+9341,0,1,Wooden Windmill
+9343,0,64,Brass Gear
+11367,0,1,MFDevice <Debugger>
+11370,0,1,MFDevice <Wrench>
+11371,0,64,Blank ARS card
+11372,0,1,Forcefield frequency card
+11375,0,1,MFDevice <Offset>
+11376,0,64,Player detector token
+11376,1,64,Intersection token
+11376,2,64,Union token
+11376,3,64,Difference token
+11376,4,64,Blank token
+11376,5,64,Life detector token
+11376,6,64,Redstone input token
+11376,7,64,Animal detector token
+11376,8,64,Mob detector token
+11376,9,64,Item detector token
+11377,0,64,Energy modulator
+11377,1,64,Diamond lens
+11377,2,64,Forcefield projector base
+11520,0,1,Wooden Spear
+11521,0,1,Stone Spear
+11522,0,1,Iron Spear
+11523,0,1,Diamond Spear
+11524,0,1,Golden Spear
+11525,0,1,Wooden Halberd
+11526,0,1,Stone Halberd
+11527,0,1,Iron Halberd
+11528,0,1,Diamond Halberd
+11529,0,1,Golden Halberd
+11530,0,1,Wooden Battleaxe
+11531,0,1,Stone Battleaxe
+11532,0,1,Iron Battleaxe
+11533,0,1,Diamond Battleaxe
+11534,0,1,Golden Battleaxe
+11535,0,1,Wooden Warhammer
+11536,0,1,Stone Warhammer
+11537,0,1,Iron Warhammer
+11538,0,1,Diamond Warhammer
+11539,0,1,Golden Warhammer
+11540,0,1,Wooden Knife
+11541,0,1,Stone Knife
+11542,0,1,Iron Knife
+11543,0,1,Diamond Knife
+11544,0,1,Golden Knife
+11545,0,1,Wooden Flail
+11546,0,1,Stone Flail
+11547,0,1,Iron Flail
+11548,0,1,Diamond Flail
+11549,0,1,Golden Flail
+11550,0,16,Javelin
+11551,0,1,Musket
+11552,0,1,Musket with Bayonet
+11553,0,64,Musket Barrel
+11554,0,64,Musket Round
+11555,0,1,Crossbow
+11556,0,64,Crossbow Bolt
+11557,0,1,Blowgun
+11558,0,64,Poisonous Dart
+11559,0,64,Dynamite
+11560,0,1,Fire Rod
+11561,0,1,Cannon
+11562,0,64,Cannon Ball
+11563,0,1,Blunderbuss
+11564,0,64,Blunderbuss Shot
+11565,0,64,Blunderbuss Barrel
+11566,0,1,Training Dummy
+11567,0,64,Gun Stock
+11568,0,1,Wooden Boomerang
+11569,0,1,Stone Boomerang
+11570,0,1,Iron Boomerang
+11571,0,1,Diamond Boomerang
+11572,0,1,Golden Boomerang
+12243,0,1,Precision Sledgehammer
+12244,0,64,Milk
+12245,0,64,Sludge
+12246,0,64,Sewage
+12247,0,64,Monster Essence
+12248,0,64,Industrial Fertilizer
+12249,0,64,Plastic Sheets
+12250,0,64,Raw Plastic
+12251,0,64,Rubber Bar
+12252,0,1,Sewage Bucket
+12253,0,1,Sludge Bucket
+12254,0,1,Mob Essence Bucket
+12255,0,64,Empty Syringe
+12256,0,1,Healing Syringe
+12257,0,1,Growth Hormone Syringe
+12258,0,64,Rubber
+12259,0,64,Factory Machine Block
+12260,0,1,Safari Net
+12261,0,64,White Ceramic Dye
+12261,1,64,Orange Ceramic Dye
+12261,2,64,Magenta Ceramic Dye
+12261,3,64,Light Blue Ceramic Dye
+12261,4,64,Yellow Ceramic Dye
+12261,5,64,Lime Ceramic Dye
+12261,6,64,Pink Ceramic Dye
+12261,7,64,Gray Ceramic Dye
+12261,8,64,Light Gray Ceramic Dye
+12261,9,64,Cyan Ceramic Dye
+12261,10,64,Purple Ceramic Dye
+12261,11,64,Blue Ceramic Dye
+12261,12,64,Brown Ceramic Dye
+12261,13,64,Green Ceramic Dye
+12261,14,64,Red Ceramic Dye
+12261,15,64,Black Ceramic Dye
+12262,0,1,Blank Record
+12263,0,1,Zombie Syringe
+12264,0,1,Safari Net (Single Use)
+12265,0,64,BioFuel
+12266,0,1,BioFuel Bucket
+12267,0,1,Lapis Upgrade
+12267,1,1,Iron Upgrade
+12267,2,1,Tin Upgrade
+12267,3,1,Copper Upgrade
+12267,4,1,Bronze Upgrade
+12267,5,1,Silver Upgrade
+12267,6,1,Gold Upgrade
+12267,7,1,Quartz Upgrade
+12267,8,1,Diamond Upgrade
+12267,9,1,Platinum Upgrade
+12267,10,1,Emerald Upgrade
+12268,0,1,Safari Net Launcher
+19256,0,1,Craftpacket
+19256,255,1,Craftpacket
+19257,0,1,Bag of Holding
+19258,0,1,Pocket Crafting Table
+19259,0,64,Netherrack Powder
+19261,0,1,Wand of Cooling
+19262,0,64,Diamond Shard
+19263,0,1,Wrath Igniter
+19264,0,64,Dark Iron Ingot
+19265,0,64,Exo-Chassis
+19266,0,1,Exo-Helmet
+19267,0,1,Exo-Chestplate
+19268,0,1,Exo-Leggings
+19269,0,1,Exo-Boots
+19270,0,64,Lead Ingot
+19271,0,64,Silver Ingot
+19272,0,16,Item Filter
+19273,0,16,Machine Filter
+19274,0,16,Speed Boost
+19275,0,16,Thoroughness
+19276,0,16,Bandwidth
+19277,0,1,Buoyant Barrel
+19278,0,1,Cobblestone Drive
+19279,0,1,Shoulder-Mounted Piston
+19280,0,16,Sulfuric Acid
+19280,1,16,Aqua Regia
+19281,0,64,Magnet
+19282,0,64,Insulated Coil
+19283,0,64,Motor
+19284,0,64,Fan
+19285,0,64,Charge Meter
+19287,0,16,Ejector
+19288,0,16,Extra-Dimensional Storage
+19290,0,64,Dirty Iron Gravel
+19290,1,64,Dirty Gold Gravel
+19290,3,64,Dirty Tin Gravel
+19290,4,64,Dirty Copper Gravel
+19290,6,64,Dirty Galena Gravel
+19291,0,64,Clean Iron Chunks
+19291,1,64,Clean Gold Chunks
+19291,3,64,Clean Tin Chunks
+19291,4,64,Clean Copper Chunks
+19291,6,64,Clean Galena Chunks
+19292,0,64,Reduced Iron Chunks
+19292,1,64,Reduced Gold Chunks
+19292,2,64,Reduced Lead Chunks
+19292,3,64,Reduced Tin Chunks
+19292,4,64,Reduced Copper Chunks
+19292,5,64,Reduced Silver Chunks
+19293,0,64,Crystalline Iron
+19293,1,64,Crystalline Gold
+19293,2,64,Crystalline Lead
+19293,3,64,Crystalline Tin
+19293,4,64,Crystalline Copper
+19293,5,64,Crystalline Silver
+19294,0,64,Diamond Cutting Head
+19295,0,64,Sludge
+19296,1,64,Inverium Drop
+19297,0,1,Sculpting Tool
+19298,0,1,Angular Saw
+19299,0,1,Logic Matrix Programmer
+19300,0,64,Logic Matrix
+19301,0,64,Logic Matrix: Identifier
+19302,0,64,Heat Hole
+19303,0,1,Wall Jumping Boots
+19423,0,64,Emerald Transport Pipe
+19443,0,64,Emerald Waterproof Pipe
+19765,0,1,Diamond to Obsidian Chest Upgrade
+19807,0,1,LV Solar Hat
+19808,0,1,MV Solar Hat
+19809,0,1,HV Solar Hat
+20257,0,1,Crescent Hammer
+20259,0,1,Multimeter
+20260,32,64,Machine Frame
+20260,64,64,Energy Cell Frame (Empty)
+20260,65,64,Energy Cell Frame (Full)
+20260,96,64,Energy Conduit (Empty)
+20260,128,64,Tesseract Frame
+20260,129,64,Unattuned Tesseract
+20261,0,64,Pulverized Iron
+20261,1,64,Pulverized Gold
+20261,3,64,Pulverized Obsidian
+20261,32,64,Pulverized Copper
+20261,33,64,Pulverized Tin
+20261,34,64,Pulverized Silver
+20261,35,64,Pulverized Lead
+20261,40,64,Pulverized Ferrous Metal
+20261,41,64,Pulverized Shiny Metal
+20261,38,64,Electrum Blend
+20261,39,64,Invar Blend
+20261,36,64,Bronze Blend
+20261,37,64,Brass Blend
+20261,64,64,Copper Ingot
+20261,65,64,Tin Ingot
+20261,66,64,Silver Ingot
+20261,67,64,Lead Ingot
+20261,68,64,Ferrous Ingot
+20261,69,64,Shiny Ingot
+20261,70,64,Electrum Ingot
+20261,71,64,Invar Ingot
+20261,96,64,Sulfur
+20261,97,64,Niter
+20261,128,64,Wood Chips
+20261,129,64,Sawdust
+20261,130,64,Compressed Sawdust
+20261,131,64,Slag
+20261,132,64,Rich Slag
+20261,160,64,Pneumatic Servo
+20261,161,64,Redstone Reception Coil
+20261,162,64,Redstone Transmission Coil
+20261,163,64,Redstone Conductance Coil
+20261,164,64,Copper Gear
+20261,165,64,Tin Gear
+20261,166,64,Invar Gear
+21257,0,1,Prototype OmniWrench
+21258,0,1,Forge Lexicon
+22752,0,1,Energy Link Card (Blank)
+22755,0,1,Charging Bench Toolkit
+22755,1,1,LV Charging Bench Components
+22755,2,1,MV Charging Bench Components
+22755,3,1,HV Charging Bench Components
+25026,0,1,Power Armor Head
+25027,0,1,Power Armor Torso
+25028,0,1,Power Armor Legs
+25029,0,1,Power Armor Feet
+25030,0,1,Power Tool
+25031,0,64,Wiring
+25031,1,64,Solenoid
+25031,2,64,Servo Motor
+25031,3,64,Glider Wing
+25031,4,64,Ion Thruster
+25031,5,64,LV Capacitor
+25031,6,64,MV Capacitor
+25031,7,64,HV Capacitor
+25031,8,64,Parachute
+25031,9,64,Basic Plating
+25031,10,64,Advanced Plating
+25031,11,64,Force Field Emitter
+25031,12,64,Hologram Emitter
+25031,13,64,Carbon Myofiber
+25031,14,64,Control Circuit
+25031,15,64,Myofiber Gel
+25031,16,64,Artificial Muscle
+25031,17,64,Solar Panel
+27000,0,64,Shard of Minium
+27001,0,1,Inert Stone
+27002,0,1,Minium Stone
+27003,0,1,Philosopher's Stone
+27004,0,64,Ash
+27004,1,64,Minium Dust
+27004,2,64,Verdant Dust
+27004,3,64,Azure Dust
+27004,4,64,Amaranthine Dust
+27004,5,64,Iridescent Dust
+27005,0,1,White Alchemical Bag
+27005,1,1,Orange Alchemical Bag
+27005,2,1,Magenta Alchemical Bag
+27005,3,1,Light Blue Alchemical Bag
+27005,4,1,Yellow Alchemical Bag
+27005,5,1,Lime Alchemical Bag
+27005,6,1,Pink Alchemical Bag
+27005,7,1,Gray Alchemical Bag
+27005,8,1,Light Gray Alchemical Bag
+27005,9,1,Cyan Alchemical Bag
+27005,10,1,Purple Alchemical Bag
+27005,11,1,Blue Alchemical Bag
+27005,12,1,Brown Alchemical Bag
+27005,13,1,Green Alchemical Bag
+27005,14,1,Red Alchemical Bag
+27005,15,1,Black Alchemical Bag
+29757,0,1,Iron to Gold Chest Upgrade
+29758,0,1,Gold to Diamond Chest Upgrade
+29759,0,1,Copper to Silver Chest Upgrade
+29760,0,1,Silver to Gold Chest Upgrade
+29761,0,1,Copper to Iron Chest Upgrade
+29762,0,1,Diamond to Crystal Chest Upgrade
+29763,0,1,Normal chest to Iron Chest Upgrade
+29764,0,1,Normal chest to Copper Chest Upgrade
+30078,1,1,Nightvision Goggles
+30078,363,1,Nightvision Goggles
+30079,0,64,Compressed Air Cell
+30080,0,1,Hazmat Suit Leggings
+30081,0,1,Hazmat Suit
+30082,0,1,Scuba Helmet
+30083,0,1,LZH-Condensator
+30084,0,64,Dense Copper Plate
+30085,0,1,RSH-Condensator
+30086,0,1,Thick Neutron Reflector
+30087,0,1,Neutron Reflector
+30088,0,64,Heating Cell
+30089,0,1,Advanced Heat Vent
+30090,0,1,Component Heat Vent
+30091,0,1,Overclocked Heat Vent
+30092,0,1,Reactor Heat Vent
+30093,0,1,Heat Vent
+30094,0,1,Advanced Heat Exchanger
+30095,0,1,Component Heat Exchanger
+30096,0,1,Reactor Heat Exchanger
+30097,0,64,Containment Reactor Plating
+30098,0,64,Heat-Capacity Reactor Plating
+30099,0,1,60k Coolant Cell
+30100,0,1,30k Coolant Cell
+30101,0,1,Quad Uranium Cell
+30102,0,1,Dual Uranium Cell
+30105,0,1,Weed-EX
+30106,0,64,Grin Powder
+30108,0,1,Empty Booze Barrel
+30109,0,64,Hops
+30110,0,1,Cold Coffee
+30110,1,1,Dark Coffee
+30110,2,1,Coffee
+30111,0,1,Stone Mug
+30112,0,64,Coffee Powder
+30113,0,64,Coffee Beans
+30114,0,64,Terra Wart
+30115,0,1,Static Boots
+30116,0,1,Solar Helmet
+30117,0,1,Tool Box
+30118,0,1,TFBP - Mushroom
+30119,1,1,Electric Hoe
+30119,27,1,Electric Hoe
+30120,0,1,Hydration Cell
+30121,0,64,Fertilizer
+30122,0,1,Cropnalyzer
+30124,1,1,Electric Treetap
+30124,27,1,Electric Treetap
+30125,0,64,Overclocker Upgrade
+30125,1,64,Transformer Upgrade
+30125,2,64,Energy Storage Upgrade
+30127,1,1,Lappack
+30127,27,1,Lappack
+30128,0,64,Iridium Ore
+30129,0,1,CF Backpack
+30130,0,64,Silver Dust
+30131,0,1,CF Sprayer
+30132,0,64,CF Pellet
+30133,0,64,Clay Dust
+30134,0,1,Frequency Transmitter
+30136,0,64,Coal Chunk
+30137,0,64,Compressed Coal Ball
+30138,0,64,Coal Ball
+30139,0,64,Scrap Box
+30140,1,1,Electric Wrench
+30140,27,1,Electric Wrench
+30141,0,1,TFBP - Flatification
+30142,0,1,TFBP - Desertification
+30143,0,1,TFBP - Chilling
+30144,0,1,TFBP - Irrigation
+30145,0,1,TFBP - Cultivation
+30146,0,64,TFBP - Empty
+30147,0,64,Iridium Plate
+30148,1,1,Nano Saber
+30148,27,1,Nano Saber
+30150,0,64,Carbon Plate
+30151,0,64,Raw Carbon Mesh
+30152,0,64,Raw Carbon Fibre
+30153,0,1,Insulation Cutter
+30154,0,1,Painter
+30155,0,1,Painter
+30156,0,1,Painter
+30157,0,1,Painter
+30158,0,1,Painter
+30159,0,1,Painter
+30160,0,1,Painter
+30161,0,1,Painter
+30162,0,1,Painter
+30163,0,1,Painter
+30164,0,1,Painter
+30165,0,1,Painter
+30166,0,1,Painter
+30167,0,1,Painter
+30168,0,1,Painter
+30169,0,1,Painter
+30170,0,64,Painter
+30171,1,1,QuantumSuit Boots
+30171,27,1,QuantumSuit Boots
+30172,1,1,QuantumSuit Leggings
+30172,27,1,QuantumSuit Leggings
+30173,1,1,QuantumSuit Bodyarmor
+30173,27,1,QuantumSuit Bodyarmor
+30174,1,1,QuantumSuit Helmet
+30174,27,1,QuantumSuit Helmet
+30175,1,1,NanoSuit Boots
+30175,27,1,NanoSuit Boots
+30176,1,1,NanoSuit Leggings
+30176,27,1,NanoSuit Leggings
+30177,1,1,NanoSuit Bodyarmor
+30177,27,1,NanoSuit Bodyarmor
+30178,1,1,NanoSuit Helmet
+30178,27,1,NanoSuit Helmet
+30179,0,1,Composite Vest
+30180,1,1,BatPack
+30180,27,1,BatPack
+30181,0,64,Electrolyzed Water Cell
+30182,0,1,EU-Reader
+30183,0,1,Wrench
+30184,0,64,Copper Cable
+30184,1,64,Uninsulated Copper Cable
+30184,2,64,Gold Cable
+30184,3,64,Insulated Gold Cable
+30184,4,64,2xIns. Gold Cable
+30184,5,64,HV Cable
+30184,6,64,Insulated HV Cable
+30184,7,64,2xIns. HV Cable
+30184,8,64,4xIns. HV Cable
+30184,9,64,Glass Fibre Cable
+30184,10,64,Ultra-Low-Current Cable
+30184,11,64,EU-Detector Cable
+30184,12,64,EU-Splitter Cable
+30185,0,1,Reinforced Door
+30187,0,64,Advanced Alloy
+30188,0,64,UU-Matter
+30189,0,64,Scrap
+30190,0,64,Advanced Circuit
+30191,0,64,Electronic Circuit
+30192,0,1,Bronze Boots
+30193,0,1,Bronze Legs
+30194,0,1,Bronze Chestplate
+30195,0,1,Bronze Helmet
+30196,0,1,Bronze Hoe
+30197,0,1,Bronze Shovel
+30198,0,1,Bronze Sword
+30199,0,1,Bronze Axe
+30200,0,1,Bronze Pickaxe
+30201,0,64,Near-depleted Uranium Cell
+30202,0,64,Re-Enriched Uranium Cell
+30203,0,1,Depleted Isotope Cell
+30204,0,1,Heat Exchanger
+30205,0,64,Reactor Plating
+30206,0,1,10k Coolant Cell
+30207,0,1,Uranium Cell
+30208,1,1,Mining Laser
+30208,27,1,Mining Laser
+30209,1,1,Electric Jetpack
+30209,27,1,Electric Jetpack
+30210,1,1,Jetpack
+30211,0,1,Rubber Boots
+30212,0,1,Treetap
+30213,0,1,Dynamite-O-Mote
+30214,0,16,Sticky Dynamite
+30215,0,16,Dynamite
+30216,0,64,Rubber
+30217,0,64,Sticky Resin
+30218,0,64,Water Cell
+30219,1,1,OV Scanner
+30219,27,1,OV Scanner
+30220,1,1,OD Scanner
+30220,27,1,OD Scanner
+30221,0,64,(Filled) Tin Can
+30222,0,64,Tin Can
+30223,0,64,Compressed Plants
+30224,0,64,Plantball
+30225,0,64,H. Coal
+30226,0,64,Hydrated Coal Dust
+30227,0,64,Biofuel Cell
+30228,0,64,Coalfuel Cell
+30229,0,64,Bio Cell
+30230,0,64,H. Coal Cell
+30231,0,64,(Empty) Fuel Can
+30233,1,1,Chainsaw
+30233,27,1,Chainsaw
+30234,1,1,Diamond Drill
+30234,27,1,Diamond Drill
+30235,1,1,Mining Drill
+30235,27,1,Mining Drill
+30236,0,64,Lava Cell
+30237,0,64,Empty Cell
+30238,0,64,Single-Use Battery
+30239,0,16,RE-Battery
+30240,1,1,Lapotron Crystal
+30240,27,1,Lapotron Crystal
+30241,1,1,Energy Crystal
+30241,27,1,Energy Crystal
+30242,1,1,RE-Battery
+30243,0,64,Uranium Ore
+30244,0,64,Refined Uranium
+30245,0,64,Mixed Metal Ingot
+30246,0,64,Bronze
+30247,0,64,Tin
+30248,0,64,Copper
+30249,0,64,Refined Iron
+30250,0,64,Small Pile of Iron Dust
+30251,0,64,Bronze Dust
+30252,0,64,Tin Dust
+30253,0,64,Copper Dust
+30254,0,64,Gold Dust
+30255,0,64,Iron Dust
+30256,0,64,Coal Dust
+31256,0,1,Thermometer
+31257,1,1,Digital Thermometer
+31257,101,1,Digital Thermometer
+31258,0,1,Remote Sensor Kit
+31260,0,64,Range Upgrade
+31260,1,64,Color Upgrade
+31262,0,1,Energy Sensor Kit
+31265,0,1,Counter Sensor Kit
+31265,1,1,Liquid Sensor Kit
+31997,0,64,Coal Engine
+31997,1,64,Solar Engine
+31997,2,64,Side Chests
+31997,3,64,Top Chest
+31997,4,64,Front Chest
+31997,5,64,Internal Storage
+31997,6,64,Extracting Chests
+31997,7,64,Torch Placer
+31997,8,64,Basic Drill
+31997,9,64,Galgadorian Drill
+31997,10,64,Railer
+31997,11,64,Large Railer
+31997,12,64,Bridge Builder
+31997,13,64,Track Remover
+31997,14,64,Farmer
+31997,15,64,Wood Cutter
+31997,17,64,Large Hydrator
+31997,16,64,Hydrator
+31997,19,64,Height Controller
+31997,18,64,Fertilizer
+31997,21,64,Entity Detector: Animal
+31997,20,64,Liquid Sensors
+31997,23,64,Entity Detector: Villager
+31997,22,64,Entity Detector: Player
+31997,25,64,Seat
+31997,24,64,Entity Detector: Monster
+31997,27,64,Advanced Control System
+31997,26,64,Brake Handle
+31997,29,64,Advanced Shooter
+31997,28,64,Shooter
+31997,31,64,Dynamite Carrier
+31997,30,64,Cleaning Machine
+31997,34,64,Extreme Melter
+31997,32,64,Divine Shield
+31997,33,64,Melter
+31997,38,64,Standard Hull
+31997,39,64,Reinforced Hull
+31997,36,64,Invisibility Core
+31997,37,64,Wooden Hull
+31997,42,64,Iron Drill
+31997,43,64,Hardened Drill
+31997,40,64,Note Sequencer
+31997,41,64,Colorizer
+31997,44,64,Tiny Coal Engine
+31997,45,64,Basic Solar Engine
+31997,51,64,Projectile: Potion
+31997,49,64,Chunk Loader
+31997,53,64,Projectile: Egg
+31997,59,64,Firework display
+31997,58,64,Crop: Nether Wart
+31997,57,64,Cage
+31997,56,64,Compact Solar Engine
+31997,62,64,Mechanical Pig
+31997,61,64,Creative Engine
+31998,0,64,Wooden Wheels
+31998,1,64,Iron Wheels
+31998,2,64,Red Pigment
+31998,3,64,Green Pigment
+31998,4,64,Blue Pigment
+31998,5,64,Glass o'Magic
+31998,6,64,Dynamite
+31998,7,64,Small Water Container
+31998,8,64,Large Water Container
+31998,9,64,Simple PCB
+31998,10,64,Graphical Interface
+31998,11,64,Raw Handle
+31998,12,64,Refined Handle
+31998,13,64,Speed Handle
+31998,14,64,Wheel
+31998,15,64,Saw Blade
+31998,16,64,Advanced PCB
+31998,17,64,Wood Cutting Core
+31998,18,64,Raw Hardener
+31998,19,64,Refined Hardener
+31998,20,64,Hardened Mesh
+31998,21,64,Stabilized Metal
+31998,22,64,Reinforced Metal
+31998,23,64,Reinforced Wheels
+31998,24,64,Pipe
+31998,25,64,Shooting Station
+31998,26,64,Entity Scanner
+31998,27,64,Entity Analyzer
+31998,28,64,Empty Disk
+31998,29,64,Tri-torch
+31998,30,64,Chest Pane
+31998,31,64,Large Chest Pane
+31998,32,64,Huge Chest Pane
+31998,33,64,Chest Lock
+31998,34,64,Iron Pane
+31998,35,64,Large Iron Pane
+31998,36,64,Huge Iron Pane
+31998,37,64,Dynamic Pane
+31998,38,64,Large Dynamic Pane
+31998,39,64,Huge Dynamic Pane
+31998,40,64,Cleaning Fan
+31998,41,64,Cleaning Core
+31998,42,64,Cleaning Tube
+31998,43,64,Fuse
+31998,44,64,Solar Panel
+31998,45,64,Eye of Galgador
+31998,46,64,Lump of Galgador
+31998,47,64,Galgadorian Metal
+31998,48,64,Large Lump of Galgador
+31998,49,64,Enhanced Galgadorian Metal
+31998,58,64,Advanced Solar Panel
+31998,59,64,Blank Upgrade

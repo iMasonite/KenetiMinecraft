@@ -1,0 +1,121 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  retail:
+    aliases: [market]
+    description: Keneti Retail management command.
+    usage: Command not initialised ask admin for help.
+  sell:
+    description: Sell items to the server using a ItemGUI.
+    usage: Command not initialised ask admin for help.
+  shops:
+    description: Teleport to shops on the server.
+    aliases: [shop]
+    usage: Command not initialised ask admin for help.
+    
+#################################################################################################
+
+permissions:
+  keneti.retail.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: false
+    children:
+      keneti.retail.tools.*: true
+      keneti.retail.commands.*: true
+      keneti.retail.features.*: true
+      
+#################################################################################################
+
+  keneti.retail.tools.*:
+    description: Grants access to all ${artifactId} tools..
+    default: false
+    children:
+      keneti.retail.tools.inspect: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.retail.tools.inspect:
+    description: Access to /sell 
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.retail.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: false
+    children:
+      keneti.retail.commands.shops.tp: true
+      keneti.retail.commands.shops.admin: true
+      
+      keneti.retail.commands.sell: true
+      keneti.retail.commands.worth: true
+      keneti.retail.commands.set: true
+      keneti.retail.commands.add: true
+      keneti.retail.commands.remove: true
+      keneti.retail.commands.save: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.retail.commands.shops.tp:
+    description: Use the Shop TP GUI 
+    default: true
+  keneti.retail.commands.shops.admin:
+    description: Use the Shop TP GUI 
+    default: true
+    
+  keneti.retail.commands.sell:
+    description: Access to /sell 
+    default: true
+  keneti.retail.commands.worth:
+    description: Access to /retail worth [id:d]
+    default: true
+  keneti.retail.commands.set:
+    description: Access to /retail set [id:d] <#>
+    default: OP
+  keneti.retail.commands.add:
+    description: Access to /retail add [id:d] <#>
+    default: OP
+  keneti.retail.commands.remove:
+    description: Access to /retail remove [id:d]
+    default: OP
+  keneti.retail.commands.save:
+    description: Access to /retail save
+    default: OP
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.retail.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: false
+    children:
+      keneti.retail.features.sell.*: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.retail.features.sell.*:
+    description: Grants access to all Sell Features.
+    default: false
+    children:
+      keneti.retail.features.sell.basic: true
+      keneti.retail.features.sell.anywhere: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.retail.features.sell.basic:
+    description: Sell basic items to the server.
+    default: true
+  keneti.retail.features.sell.anywhere:
+    description: Allowed to use command in spawn portal areas.
+    default: OP
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

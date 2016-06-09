@@ -1,0 +1,59 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  tailor:
+    aliases: [fixes]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.tailor.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.tailor.commands.*: true
+      keneti.tailor.features.*: true
+      
+#################################################################################################
+
+  keneti.tailor.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.tailor.commands.future: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.tailor.commands.future:
+    description:  // TODO
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.tailor.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.tailor.features.bypass.activitypreventions: true
+      keneti.tailor.features.bypass.singleuseraccess: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.tailor.features.bypass.activitypreventions:
+    description: Permission to bypass region flag Activity controls
+    default: OP
+  keneti.tailor.features.bypass.singleuseraccess:
+    description: Permission to bypass Single User Access Block preventions
+    default: OP

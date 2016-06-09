@@ -1,0 +1,93 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  confab:
+    aliases: [kchat]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+  adminchat:
+    description: Admin Private Chat Channel
+    aliases: [ac, a]
+    usage: Command not initialised ask admin for help.
+  eventcast:
+    description: Broadcast event information.
+    aliases: [evc]
+    usage: Command not initialised ask admin for help.
+  motd:
+    description: Message of the day.
+    usage: Command not initialised ask admin for help.
+  say:
+    description: Override for the /say command.
+    usage: Command not initialised ask admin for help.
+        
+#################################################################################################
+
+permissions:
+  keneti.confab.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.confab.commands.*: true
+      keneti.confab.features.*: true
+      
+#################################################################################################
+
+  keneti.confab.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.confab.commands.adminchat: true
+      keneti.confab.commands.motd: true
+      keneti.confab.commands.say: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.confab.commands.adminchat:
+    description: Permission to use the AdminChat command.
+    default: OP
+    
+  keneti.confab.commands.motd:
+    description: Grants access to the /motd command.
+    default: true
+    
+  keneti.confab.commands.say:
+    description: Overrides the default */say <message>* Server Command.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.confab.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.confab.features.adminchat.*: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.confab.features.adminchat.*:
+    description: Permission use the AdminChat command features.
+    default: OP
+    children:
+      keneti.confab.features.adminchat.send: true
+      keneti.confab.features.adminchat.receive: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.confab.features.adminchat.send:
+    description: Can Send AdminChat Messages
+    default: OP
+  keneti.confab.features.adminchat.receive:
+    description: Can Receive AdminChat Messages
+    default: OP
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

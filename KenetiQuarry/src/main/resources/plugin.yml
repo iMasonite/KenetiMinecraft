@@ -1,0 +1,55 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  quarry:
+    aliases: [temp]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.quarry.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.quarry.commands.*: true
+      keneti.quarry.features.*: true
+      
+#################################################################################################
+
+  keneti.quarry.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.quarry.commands.future: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.quarry.commands.future:
+    description:  // TODO
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.quarry.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.quarry.features.future: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.quarry.features.future:
+    description: // TODO
+    default: OP

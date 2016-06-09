@@ -1,0 +1,6 @@
+CREATE TABLE Keneti_Players (
+    playerName VARCHAR(32) NOT NULL UNIQUE,
+    loginTime BIGINT(13) NOT NULL,    
+    lastupdate DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, 
+        CONSTRAINT pk_playerName PRIMARY KEY (playerName)
+)

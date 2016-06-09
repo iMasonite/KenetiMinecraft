@@ -1,0 +1,125 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.keneti</groupId>
+		<artifactId>KenetiMinecraft</artifactId>
+		<version>K2.0.0</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<groupId>com.keneti.limits</groupId>
+	<artifactId>KenetiLimits</artifactId>
+	<name>KenetiLimits</name>
+
+	<description>A Plugin for Keneti Minecraft.</description>
+	<url>http://keneti.com</url>
+
+	<version>${project.parent.version}</version>
+
+	<properties>
+		<mainClass>com.keneti.limits.KenetiLimits</mainClass>
+
+		<hardDepend>KenetiStarts, KenetiTekkit</hardDepend>
+		<softDepend></softDepend>
+		<loadPhase>POSTWORLD</loadPhase>
+		<loadBefore></loadBefore>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/iMasonite/KenetiLimits/issues</url>
+	</issueManagement>
+
+	<organization>
+		<name>Keneti Systems Development</name>
+		<url>https://github.com/iMasonite</url>
+	</organization>
+
+	<dependencies>
+		<!-- Keneti Dependencies -->
+		<dependency>
+			<groupId>com.keneti.starts</groupId>
+			<artifactId>KenetiStarts</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.keneti.tekkit</groupId>
+			<artifactId>KenetiTekkit</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+	</dependencies>
+
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>2.3</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<minimizeJar>false</minimizeJar>
+							<artifactSet>
+								<includes>
+									<include>${project.groupId}</include>
+								</includes>
+							</artifactSet>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- Deploy packaged JAR files to local debug environments -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.3</version>
+				<configuration>
+					<target failonerror="false"></target>
+				</configuration>
+				<executions>
+					<execution>
+						<id>Copy JAR files</id>
+						<phase>package</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<tasks>
+								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="../../DEBUGSERVER/TekkitLite/plugins/${project.artifactId}.jar" />
+							</tasks>
+						</configuration>
+					</execution>
+					<execution>
+						<id>Deploy JAR files</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target failonerror="false"></target>
+							<tasks>
+								<!-- <copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25611/Minecraft/plugins/AutoPluginUpdater/${project.artifactId}.jar" /> -->
+								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25612/Minecraft/plugins/AutoPluginUpdater/${project.artifactId}.jar" />
+								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25613/Minecraft/plugins/AutoPluginUpdater/${project.artifactId}.jar" />
+								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25614/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+							</tasks>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>

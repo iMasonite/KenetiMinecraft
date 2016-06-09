@@ -1,0 +1,55 @@
+main: ${mainClass}
+name: ${artifactId}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  tester:
+    aliases: [temp]
+    description: Root command for ${artifactId}
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.tester.*:
+    description: Grants access to all ${artifactId} Commands and Features.
+    default: OP
+    children:
+      keneti.tester.commands.*: true
+      keneti.tester.features.*: true
+      
+#################################################################################################
+
+  keneti.tester.commands.*:
+    description: Grants access to all ${artifactId} Commands.
+    default: OP
+    children:
+      keneti.tester.commands.future: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.tester.commands.future:
+    description:  // TODO
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  keneti.tester.features.*:
+    description: Grants access to all ${artifactId} Features.
+    default: OP
+    children:
+      keneti.tester.features.future: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.tester.features.future:
+    description: // TODO
+    default: OP
