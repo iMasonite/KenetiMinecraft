@@ -16,7 +16,7 @@ commands:
     description: ${artifactId} Main command.
     usage: Command not initialised ask admin for help.
   systemvariables: 
-    aliases: [sysv]
+    aliases: [ksystemvariables, sysv]
     description: Shows System Variables.
     usage: Command not initialised ask admin for help.
 

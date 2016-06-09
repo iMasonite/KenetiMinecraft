@@ -12,7 +12,7 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   tailor:
-    aliases: [fixes]
+    aliases: [ktailor, fixes]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
 

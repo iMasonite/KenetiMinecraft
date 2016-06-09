@@ -12,7 +12,7 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   tekkit:
-    aliases: [temp]
+    aliases: [ktekkit]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
 

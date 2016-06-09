@@ -12,21 +12,23 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   confab:
-    aliases: [kchat]
+    aliases: [kconfab, kchat]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
   adminchat:
     description: Admin Private Chat Channel
-    aliases: [ac, a]
+    aliases: [kadminchat, ac, a]
     usage: Command not initialised ask admin for help.
   eventcast:
     description: Broadcast event information.
-    aliases: [evc]
+    aliases: [keventcast, evc]
     usage: Command not initialised ask admin for help.
   motd:
+    aliases: [kmotd]
     description: Message of the day.
     usage: Command not initialised ask admin for help.
   say:
+    aliases: [ksay]
     description: Override for the /say command.
     usage: Command not initialised ask admin for help.
         

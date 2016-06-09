@@ -12,7 +12,7 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   absent:
-    aliases: [kafk]
+    aliases: [kabsent]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
 

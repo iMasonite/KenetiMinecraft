@@ -12,12 +12,12 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   commandplayer:
-    aliases: [kplayer]
+    aliases: [kcommandplayer, kplayer]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
   profiles:
     description: Get your Mojang profile or for another name.
-    aliases: [profile, names]
+    aliases: [kprofiles, profile, names]
     usage: Command not initialised ask admin for help.
 
 #################################################################################################

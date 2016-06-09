@@ -12,12 +12,12 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   votemanager:
-    aliases: [votem]
+    aliases: [kvotemanager, votem]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
   vote:
     description: Open a vote reward inventory.
-    aliases: [votes]
+    aliases: [kvote, votes]
     usage: Command not initialised ask admin for help.
 
 #################################################################################################

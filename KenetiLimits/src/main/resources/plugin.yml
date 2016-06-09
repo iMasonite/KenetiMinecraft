@@ -12,23 +12,23 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   limitsmanager:
-    aliases: [limitm, limm]
+    aliases: [klimitsmanager, limm]
     description: Root command for Keneti Limits Manager.
     usage: Command not initialised ask admin for help.
   registry:
-    aliases: [kenr]
+    aliases: [kregistry, kenr]
     description: Root command for Keneti Registry control.
     usage: Command not initialised ask admin for help.
-  banneditems:
-    aliases: [banned]
+  banned:
+    aliases: [kbanned]
     description: Banned Item Information.
     usage: Command not initialised ask admin for help.
-  limiteditems:
-    aliases: [limited, limits]
+  limits:
+    aliases: [klimits]
     description: Limited Item Information.
     usage: Command not initialised ask admin for help.
-  unlockableitems:
-    aliases: [unlocks]
+  unlocks:
+    aliases: [kunlocks]
     description: Unlockable Item Information.
     usage: Command not initialised ask admin for help.
 

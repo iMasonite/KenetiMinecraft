@@ -12,7 +12,7 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   protex:
-    aliases: [protect]
+    aliases: [kprotex]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
 

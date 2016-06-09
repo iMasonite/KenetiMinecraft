@@ -12,7 +12,7 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   socket:
-    aliases: [temp]
+    aliases: [ksocket]
     description: Root command for ${artifactId}
     usage: Command not initialised ask admin for help.
 

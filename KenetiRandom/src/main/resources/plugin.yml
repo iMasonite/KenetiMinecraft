@@ -17,15 +17,15 @@ commands:
     usage: Command not initialised ask admin for help.
   growgrass:
     description: Grow Grass!
-    aliases: [grass]
+    aliases: [kgrass, grass]
     usage: Command not initialised ask admin for help.
   randomteleport:
     description: Teleport to a random location.
-    aliases: [randomtp, rtp]
+    aliases: [krandomteleport, randomtp, rtp]
     usage: Command not initialised ask admin for help.
   endercrystal:
     description: Generate an End EnderCrystal.
-    aliases: [enderc]
+    aliases: [kendercrystal, enderc]
     usage: Command not initialised ask admin for help.
 
 #################################################################################################
