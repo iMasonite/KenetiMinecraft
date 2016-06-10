@@ -3,13 +3,13 @@
 
 	<parent>
 		<groupId>com.keneti</groupId>
-		<artifactId>KenetiMinecraft</artifactId>
+		<artifactId>kenetiminecraft</artifactId>
 		<version>K2.0.0</version>
 		<relativePath>../</relativePath>
 	</parent>
 
 	<groupId>com.keneti.socket</groupId>
-	<artifactId>KenetiSocket</artifactId>
+	<artifactId>kenetisocket</artifactId>
 	<name>KenetiSocket</name>
 
 	<description>A Plugin for Keneti Minecraft.</description>
@@ -42,7 +42,7 @@
 		<!-- Keneti Dependencies -->
 		<dependency>
 			<groupId>com.keneti.starts</groupId>
-			<artifactId>KenetiStarts</artifactId>
+			<artifactId>kenetistarts</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 
@@ -54,7 +54,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>${project.artifactId}</finalName>
+		<finalName>${project.name}</finalName>
 		<plugins>
 
 			<plugin>
@@ -96,9 +96,9 @@
 						</goals>
 						<configuration>
 							<tasks>
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="../../DEBUGSERVER/TekkitLite/plugins/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="../../DEBUGSERVER/Vanilla147-1/plugins/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="../../DEBUGSERVER/Vanilla147-2/plugins/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="../../DEBUGSERVER/TekkitLite/plugins/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="../../DEBUGSERVER/Vanilla147-1/plugins/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="../../DEBUGSERVER/Vanilla147-2/plugins/${project.name}.jar" />
 							</tasks>
 						</configuration>
 					</execution>
@@ -111,11 +111,11 @@
 						<configuration>
 							<target failonerror="false"></target>
 							<tasks>
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25611/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25612/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25613/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25614/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.artifactId}.jar" tofile="D:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25611/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25612/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25613/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25614/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 							</tasks>
 						</configuration>
 					</execution>

@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.keneti</groupId>
-	<artifactId>KenetiMinecraft</artifactId>
+	<artifactId>kenetiminecraft</artifactId>
 	<version>K2.0.0</version>
 	<packaging>pom</packaging>
 
