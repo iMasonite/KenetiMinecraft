@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.keneti</groupId>
 		<artifactId>kenetiminecraft</artifactId>
-		<version>K2.0.0</version>
+		<version>K2.0.3</version>
 		<relativePath>../</relativePath>
 	</parent>
 
@@ -21,7 +21,7 @@
 		<mainClass>com.keneti.protex.KenetiProtex</mainClass>
 
 		<hardDepend>KenetiStarts, Vault</hardDepend>
-		<softDepend>GriefPrevention, WorldGuard</softDepend>
+		<softDepend>KenetiClaims, GriefPrevention, WorldGuard, Towny</softDepend>
 		<loadPhase>POSTWORLD</loadPhase>
 		<loadBefore>${tekkitPlugins}</loadBefore>
 
@@ -45,14 +45,13 @@
 			<artifactId>kenetistarts</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.keneti.claims</groupId>
+			<artifactId>keneticlaims</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
 		
 		<!-- Plugin Dependencies -->
-		<dependency>
-			<groupId>net.milkbowl.vault</groupId>
-			<artifactId>Vault</artifactId>
-			<version>K1.2.3</version>
-		</dependency>
-
 		<dependency>
 			<groupId>me.ryanhamshire</groupId>
 			<artifactId>GriefPrevention</artifactId>
@@ -60,8 +59,13 @@
 		</dependency>
 		<dependency>
 			<groupId>com.sk89q</groupId>
-			<artifactId>WorldGuard</artifactId>
+			<artifactId>worldguard</artifactId>
 			<version>K5.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.palmergames</groupId>
+			<artifactId>Towny</artifactId>
+			<version>K0.88.0</version>
 		</dependency>
 		
 	</dependencies>
@@ -128,7 +132,7 @@
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25612/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25613/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25614/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="T:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 							</tasks>
 						</configuration>
 					</execution>

@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -13,18 +13,32 @@ loadbefore: [${loadBefore}]
 commands:
   commandplayer:
     aliases: [kcommandplayer, kplayer]
-    description: Root command for ${artifactId}
+    description: Root command for ${project.name}
     usage: Command not initialised ask admin for help.
   profiles:
     description: Get your Mojang profile or for another name.
     aliases: [kprofiles, profile, names]
     usage: Command not initialised ask admin for help.
+  rankup:
+    aliases: [ar, krankup, rank]
+    description: Player rank up command.
+    usage: Command not initialised ask admin for help.
+  objectives:
+    aliases: [kobjectives, kobj]
+    description: Ranking objectives manager.
+    usage: Command not initialised ask admin for help.
 
 #################################################################################################
 
 permissions:
+
+  keneti.player.commands.autoranktime:
+    description: Sync times between AR and Keneti PlayerData
+    default: false
+    
+
   keneti.player.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: OP
     children:
       keneti.player.commands.*: true
@@ -33,11 +47,16 @@ permissions:
 #################################################################################################
 
   keneti.player.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.player.commands.get: true
       keneti.player.commands.profiles: true
+      keneti.player.commands.rankup: true
+      keneti.player.commands.rankup.other: true
+      keneti.player.commands.objectives.add: true
+      keneti.player.commands.objectives.remove: true
+      keneti.player.commands.objectives.reset: true
       #
       #~~~~~~~~~~~~~~~~~~~~~
       
@@ -47,11 +66,28 @@ permissions:
   keneti.player.commands.profiles:
     description: Get a players MC Profile History.
     default: true
+      
+  keneti.player.commands.rankup:
+    description: Show your personal objectives list.
+    default: true
+  keneti.player.commands.rankup.other:
+    description: Show another player's objectives list.
+    default: OP
+    
+  keneti.player.commands.objectives.add:
+    description: Add a new Objective.
+    default: OP
+  keneti.player.commands.objectives.remove:
+    description: Add a new Objective.
+    default: OP
+  keneti.player.commands.objectives.reset:
+    description: Reset a player's objectives progress.
+    default: OP
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   keneti.player.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: OP
     children:
       keneti.player.features.gamemode.creative: true

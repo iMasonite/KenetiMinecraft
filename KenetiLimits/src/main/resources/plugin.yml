@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -36,7 +36,7 @@ commands:
 
 permissions:
   keneti.limits.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: OP
     children:
       keneti.limits.commands.*: true
@@ -45,7 +45,7 @@ permissions:
 #################################################################################################
 
   keneti.limits.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.limits.commands.registry.*: true
@@ -61,7 +61,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
   keneti.limits.commands.registry.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.limits.commands.registry.cleanup: true
@@ -95,7 +95,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   keneti.limits.commands.restrictions.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.limits.commands.restrictions.save: true
@@ -129,7 +129,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   keneti.limits.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: OP
     children:
       keneti.limits.features.bypass.*: true

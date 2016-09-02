@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -11,9 +11,9 @@ loadbefore: [${loadBefore}]
 
 #################################################################################################
 commands:
-  votemanager:
-    aliases: [kvotemanager, votem]
-    description: Root command for ${artifactId}
+  votesmanager:
+    aliases: [kvotesmanager, votem]
+    description: Root command for ${project.name}
     usage: Command not initialised ask admin for help.
   vote:
     description: Open a vote reward inventory.
@@ -24,7 +24,7 @@ commands:
 
 permissions:
   keneti.voters.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: OP
     children:
       keneti.voters.commands.*: true
@@ -33,7 +33,7 @@ permissions:
 #################################################################################################
 
   keneti.voters.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.voters.commands.pseudo: true
@@ -52,7 +52,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   keneti.voters.commands.voteinventory.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.voters.commands.voteinventory.openself: true
@@ -74,7 +74,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   keneti.voters.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: OP
     children:
       keneti.voters.features.future: true

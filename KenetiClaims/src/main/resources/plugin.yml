@@ -1,0 +1,66 @@
+main: ${mainClass}
+name: ${project.name}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${project.url}
+depend: [${hardDepend}]
+softdepend: [${softDepend}]
+load: ${loadPhase}
+loadbefore: [${loadBefore}]
+
+#################################################################################################
+commands:
+  claimsplugin:
+    aliases: [cplugin, kclaimsplugin]
+    description: Command to manage the protection plugin.
+    usage: Command not initialised ask admin for help.
+  claimsadmin:
+    aliases: [cadmin, kclaimsadmin]
+    description: Claim Protection Admin command.
+    usage: Command not initialised ask admin for help.
+  claims:
+    aliases: [kclaims, claim]
+    description: Command for players to manage claims.
+    usage: Command not initialised ask admin for help.
+
+#################################################################################################
+
+permissions:
+  keneti.claims.commands.claims.list:
+    description: Permission to list own claims.
+    default: true
+  keneti.claims.commands.claims.trust:
+    description: Permission to trust a player to a claim you own.
+    default: true
+  keneti.claims.commands.claims.untrust:
+    description: Permission to untrust a player from a claim you own.
+    default: true
+  keneti.claims.commands.claims.abandon:
+    description: Permission to delete a claim you own.
+    default: true
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.claims.commands.admin.transfer:
+    description: Permission to transfer a claim.
+    default: OP
+  keneti.claims.commands.admin.adjustbonus:
+    description: Permission Adjust a players bonus claim blocks.
+    default: OP
+  keneti.claims.commands.admin.teleport:
+    description: Permission Teleport to a claim.
+    default: OP
+    
+#################################################################################################
+
+  keneti.claims.features.claims.inspect:
+    description: Inspect claims with claim inspect tool.
+    default: true
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.claims.features.admin.bypass:
+    description: Bypass claim permission checks.
+    default: OP
+    

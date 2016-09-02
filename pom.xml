@@ -3,7 +3,7 @@
 
 	<groupId>com.keneti</groupId>
 	<artifactId>kenetiminecraft</artifactId>
-	<version>K2.0.0</version>
+	<version>K2.0.3</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -13,6 +13,7 @@
 		  <module>KenetiAbsent</module>
 		  <module>KenetiSocket</module>
   		  <module>KenetiPlayer</module>
+		  <module>KenetiClaims</module>
 		  <module>KenetiProtex</module>
 		    <module>KenetiConfab</module>
 		    <module>KenetiRandom</module>
@@ -32,7 +33,7 @@
 		<author>iMasonite</author>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
-		<bukkitPlugins>KenetiStarts, KenetiSocket, KenetiAbsent, KenetiProtex, KenetiPlayer, KenetiConfab, KenetiRandom, KenetiRetail, KenetiVoters</bukkitPlugins>
+		<bukkitPlugins>KenetiStarts, KenetiSocket, KenetiAbsent, KenetiClaims, KenetiProtex, KenetiPlayer, KenetiConfab, KenetiRandom, KenetiRetail, KenetiVoters</bukkitPlugins>
 		<tekkitPlugins>KenetiTekkit, KenetiLimits, KenetiTailor, KenetiQuarry</tekkitPlugins>
 		
 	</properties>

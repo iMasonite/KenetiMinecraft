@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -13,14 +13,18 @@ loadbefore: [${loadBefore}]
 commands:
   quarry:
     aliases: [kquarry]
-    description: Root command for ${artifactId}
+    description: Root command for ${project.name}
+    usage: Command not initialised ask admin for help.
+  tpquarry:
+    aliases: [tpq]
+    description: Teleport to a Quarry.
     usage: Command not initialised ask admin for help.
 
 #################################################################################################
 
 permissions:
   keneti.quarry.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: OP
     children:
       keneti.quarry.commands.*: true
@@ -29,21 +33,25 @@ permissions:
 #################################################################################################
 
   keneti.quarry.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
-      keneti.quarry.commands.future: true
+      keneti.quarry.commands.tpquarry: true
+      keneti.quarry.commands.tpquarry.other: true
       #
       #~~~~~~~~~~~~~~~~~~~~~
       
-  keneti.quarry.commands.future:
-    description:  // TODO
-    default: OP
+  keneti.quarry.commands.tpquarry:
+    description: Teleport to owned quarries.
+    default: true
+  keneti.quarry.commands.tpquarry.other:
+    description: Teleport to other player's quarries.
+    default: true
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   keneti.quarry.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: OP
     children:
       keneti.quarry.features.future: true

@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.keneti</groupId>
 		<artifactId>kenetiminecraft</artifactId>
-		<version>K2.0.0</version>
+		<version>K2.0.3</version>
 		<relativePath>../</relativePath>
 	</parent>
 
@@ -46,6 +46,11 @@
 			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>com.keneti.protex</groupId>
+			<artifactId>kenetiprotex</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>com.keneti.player</groupId>
 			<artifactId>kenetiplayer</artifactId>
 			<version>${project.parent.version}</version>
@@ -60,7 +65,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.sk89q</groupId>
-			<artifactId>WorldEdit</artifactId>
+			<artifactId>worldedit</artifactId>
 			<version>K5.6.0</version>
 		</dependency>
 		<dependency>
@@ -153,7 +158,7 @@
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25612/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25613/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25614/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
-								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="T:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 							</tasks>
 						</configuration>
 					</execution>

@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.keneti</groupId>
 		<artifactId>kenetiminecraft</artifactId>
-		<version>K2.0.0</version>
+		<version>K2.0.3</version>
 		<relativePath>../</relativePath>
 	</parent>
 

@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -13,7 +13,7 @@ loadbefore: [${loadBefore}]
 commands:
   starts: 
     aliases: [kstart]
-    description: ${artifactId} Main command.
+    description: ${project.name} Main command.
     usage: Command not initialised ask admin for help.
   systemvariables: 
     aliases: [ksystemvariables, sysv]
@@ -24,7 +24,7 @@ commands:
 
 permissions:
   keneti.starts.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: false
     children:
       keneti.starts.commands.*: true
@@ -34,7 +34,7 @@ permissions:
 #################################################################################################
 
   keneti.starts.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: false
     children:
       keneti.starts.commands.listcommands: true
@@ -53,7 +53,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   keneti.starts.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: false
     children:
       keneti.starts.features.listfeatures: true
@@ -99,14 +99,33 @@ permissions:
     description: Grants access to all Globalised Commands.
     default: false
     children:
-      keneti.universal.commands.reload: true
+      keneti.universal.commands.io.*: true
+      keneti.universal.commands.betamode: true
       keneti.universal.commands.logger: true
       #
       #~~~~~~~~~~~~~~~~~~~~~
       
-  keneti.universal.commands.reload:
-    description: Access to plugin reload commands.
+  keneti.universal.commands.betamode:
+    description: Toggles BETA mods access.      
     default: false
   keneti.universal.commands.logger:
     description: Grants access to all Keneti Plugins Logger Settings
+    default: false
+      
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.universal.commands.io.*:
+    description: Grants access to all Globalised Commands.
+    default: false
+    children:
+      keneti.universal.commands.io.reload: true
+      keneti.universal.commands.io.save: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.universal.commands.io.reload:
+    description: Access to reload commands.
+    default: false
+  keneti.universal.commands.io.save:
+    description: Access to save commands.
     default: false

@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -13,11 +13,15 @@ loadbefore: [${loadBefore}]
 commands:
   krandom:
     aliases: [krnd]
-    description: Root command for ${artifactId}
+    description: Root command for ${project.name}
     usage: Command not initialised ask admin for help.
   growgrass:
     description: Grow Grass!
     aliases: [kgrass, grass]
+    usage: Command not initialised ask admin for help.
+  enjinnpc:
+    description: Keneti Custom Enjin NPC's.
+    aliases: [enpc]
     usage: Command not initialised ask admin for help.
   randomteleport:
     description: Teleport to a random location.
@@ -32,7 +36,7 @@ commands:
 
 permissions:
   keneti.random.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: OP
     children:
       keneti.random.commands.*: true
@@ -41,10 +45,11 @@ permissions:
 #################################################################################################
 
   keneti.random.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.random.commands.randomteleport.*: true
+      keneti.random.commands.enpc.*: true
       keneti.random.commands.growgrass: true
       keneti.random.commands.endercrystal: true
       #
@@ -61,7 +66,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   keneti.random.commands.randomteleport.*:
-    description: Access to all Keneti Regular Commands
+    description: Access to all Keneti Random Teleport Commands
     default: OP
     children:
       keneti.random.commands.randomteleport.self: true
@@ -79,11 +84,25 @@ permissions:
   keneti.random.commands.randomteleport.others:
     description: Grants access to the /randomteleport command to use on other players.
     default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.random.commands.enpc.*:
+    description: Access to all Keneti Enjin NPC Commands.
+    default: OP
+    children:
+      keneti.random.commands.enpc.podium: true
+      #
+      #~~~~~~~~~~~~~~~~~~~~~
+      
+  keneti.random.commands.enpc.podium:
+    description: manage podiums.
+    default: OP
         
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   keneti.random.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: OP
     children:
       keneti.random.features.future: true

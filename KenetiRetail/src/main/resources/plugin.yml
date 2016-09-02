@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -15,6 +15,10 @@ commands:
     aliases: [kretail, market]
     description: Keneti Retail management command.
     usage: Command not initialised ask admin for help.
+  rewards:
+    aliases: [kreward]
+    description: Keneti Rewards management command.
+    usage: Command not initialised ask admin for help.
   sell:
     aliases: [ksell]
     description: Sell items to the server using a ItemGUI.
@@ -28,7 +32,7 @@ commands:
 
 permissions:
   keneti.retail.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: false
     children:
       keneti.retail.tools.*: true
@@ -38,7 +42,7 @@ permissions:
 #################################################################################################
 
   keneti.retail.tools.*:
-    description: Grants access to all ${artifactId} tools..
+    description: Grants access to all ${project.name} tools..
     default: false
     children:
       keneti.retail.tools.inspect: true
@@ -52,7 +56,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   keneti.retail.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: false
     children:
       keneti.retail.commands.shops.tp: true
@@ -96,7 +100,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   keneti.retail.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: false
     children:
       keneti.retail.features.sell.*: true

@@ -1,5 +1,5 @@
 main: ${mainClass}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: ${author}
 description: ${project.description}
@@ -13,14 +13,14 @@ loadbefore: [${loadBefore}]
 commands:
   protex:
     aliases: [kprotex]
-    description: Root command for ${artifactId}
+    description: Root command for ${project.name}
     usage: Command not initialised ask admin for help.
 
 #################################################################################################
 
 permissions:
   keneti.protex.*:
-    description: Grants access to all ${artifactId} Commands and Features.
+    description: Grants access to all ${project.name} Commands and Features.
     default: OP
     children:
       keneti.protex.commands.*: true
@@ -29,7 +29,7 @@ permissions:
 #################################################################################################
 
   keneti.protex.commands.*:
-    description: Grants access to all ${artifactId} Commands.
+    description: Grants access to all ${project.name} Commands.
     default: OP
     children:
       keneti.protex.commands.future: true
@@ -43,7 +43,7 @@ permissions:
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   keneti.protex.features.*:
-    description: Grants access to all ${artifactId} Features.
+    description: Grants access to all ${project.name} Features.
     default: OP
     children:
       keneti.protex.features.future: true
