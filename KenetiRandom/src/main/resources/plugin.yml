@@ -19,6 +19,10 @@ commands:
     description: Grow Grass!
     aliases: [kgrass, grass]
     usage: Command not initialised ask admin for help.
+  itemrename:
+    description: Rename held item.
+    aliases: [irename]
+    usage: Command not initialised ask admin for help.
   enjinnpc:
     description: Keneti Custom Enjin NPC's.
     aliases: [enpc]
@@ -31,30 +35,18 @@ commands:
     description: Generate an End EnderCrystal.
     aliases: [kendercrystal, enderc]
     usage: Command not initialised ask admin for help.
+  donation:
+    description: Used in conjunction with Enjin.
+    aliases: [kdon, kdonation]
+    usage: Command not initialised ask admin for help.
+  serverrestart:
+    description: Used in conjunction with Enjin.
+    aliases: [kdon, kdonation]
+    usage: Command not initialised ask admin for help.
 
 #################################################################################################
 
 permissions:
-  keneti.random.*:
-    description: Grants access to all ${project.name} Commands and Features.
-    default: OP
-    children:
-      keneti.random.commands.*: true
-      keneti.random.features.*: true
-      
-#################################################################################################
-
-  keneti.random.commands.*:
-    description: Grants access to all ${project.name} Commands.
-    default: OP
-    children:
-      keneti.random.commands.randomteleport.*: true
-      keneti.random.commands.enpc.*: true
-      keneti.random.commands.growgrass: true
-      keneti.random.commands.endercrystal: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.random.commands.growgrass:
     description: Grants access to the /growgrass command.
     default: true
@@ -63,18 +55,16 @@ permissions:
     description: Grants access to the /endercrystal command.
     default: OP
     
+  keneti.random.commands.endercrystal:
+    description: Grants access to the /donation command.
+    default: false
+    
+  keneti.random.commands.serverrestart:
+    description: Grants access to the /donation command.
+    default: false
+    
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-  keneti.random.commands.randomteleport.*:
-    description: Access to all Keneti Random Teleport Commands
-    default: OP
-    children:
-      keneti.random.commands.randomteleport.self: true
-      keneti.random.commands.randomteleport.world: true
-      keneti.random.commands.randomteleport.others: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.random.commands.randomteleport.self:
     description: Grants access to the /randomteleport command.
     default: true
@@ -84,59 +74,27 @@ permissions:
   keneti.random.commands.randomteleport.others:
     description: Grants access to the /randomteleport command to use on other players.
     default: OP
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  keneti.random.commands.itemrename.name:
+    description: Grants access to the /itemrename name <name> command.
+    default: true
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-  keneti.random.commands.enpc.*:
-    description: Access to all Keneti Enjin NPC Commands.
-    default: OP
-    children:
-      keneti.random.commands.enpc.podium: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.random.commands.enpc.podium:
     description: manage podiums.
     default: OP
         
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  keneti.random.features.*:
-    description: Grants access to all ${project.name} Features.
-    default: OP
-    children:
-      keneti.random.features.future: true
-      keneti.random.features.gamemode.keeponjoin: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-    
-  keneti.random.features.future:
-    description: // TODO
-    default: OP
-    
   keneti.random.features.gamemode.keeponjoin:
     description: On join, keeps gamemode.
     default: OP
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-  keneti.random.features.randomteleport.*:
-    description: Access to all Keneti Regular Features
-    default: OP
-    children:
-      keneti.random.features.randomteleport.bypass.*: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
-  keneti.random.features.randomteleport.bypass.*:
-    description: Access to all Keneti Regular Features
-    default: OP
-    children:
-      keneti.random.features.randomteleport.bypass.cost: true
-      keneti.random.features.randomteleport.bypass.cooldown: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.random.features.randomteleport.bypass.cost:
     description: No cost for using /rtp
     default: OP

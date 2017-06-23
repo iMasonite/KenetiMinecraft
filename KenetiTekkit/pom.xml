@@ -154,7 +154,6 @@
 						<configuration>
 							<target failonerror="false"></target>
 							<tasks>
-								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25611/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25612/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25613/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25614/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />

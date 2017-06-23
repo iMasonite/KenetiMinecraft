@@ -27,6 +27,10 @@ commands:
     aliases: [kmotd]
     description: Message of the day.
     usage: Command not initialised ask admin for help.
+  chat:
+    aliases: [kchat]
+    description: Manage Chat broadcasts and messages.
+    usage: Command not initialised ask admin for help.
   say:
     aliases: [ksay]
     description: Override for the /say command.
@@ -35,25 +39,7 @@ commands:
 #################################################################################################
 
 permissions:
-  keneti.confab.*:
-    description: Grants access to all ${project.name} Commands and Features.
-    default: OP
-    children:
-      keneti.confab.commands.*: true
-      keneti.confab.features.*: true
-      
-#################################################################################################
 
-  keneti.confab.commands.*:
-    description: Grants access to all ${project.name} Commands.
-    default: OP
-    children:
-      keneti.confab.commands.adminchat: true
-      keneti.confab.commands.motd: true
-      keneti.confab.commands.say: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.confab.commands.adminchat:
     description: Permission to use the AdminChat command.
     default: OP
@@ -65,25 +51,12 @@ permissions:
   keneti.confab.commands.say:
     description: Overrides the default */say <message>* Server Command.
     default: OP
+
+  keneti.confab.commands.chat:
+    description: Manage Chat broadcasts.
+    default: OP
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  keneti.confab.features.*:
-    description: Grants access to all ${project.name} Features.
-    default: OP
-    children:
-      keneti.confab.features.adminchat.*: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-    
-  keneti.confab.features.adminchat.*:
-    description: Permission use the AdminChat command features.
-    default: OP
-    children:
-      keneti.confab.features.adminchat.send: true
-      keneti.confab.features.adminchat.receive: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
 
   keneti.confab.features.adminchat.send:
     description: Can Send AdminChat Messages
@@ -92,4 +65,3 @@ permissions:
     description: Can Receive AdminChat Messages
     default: OP
 
-  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

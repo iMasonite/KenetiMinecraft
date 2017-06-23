@@ -11,50 +11,45 @@ loadbefore: [${loadBefore}]
 
 #################################################################################################
 commands:
-  tester:
-    aliases: [temp]
+  outfit:
+    aliases: [koutfit]
     description: Root command for ${project.name}
-    usage: Command not initialised ask admin for help.
-
-  recipemanager:
-    aliases: [rpman]
-    description: recipe manager
     usage: Command not initialised ask admin for help.
 
 #################################################################################################
 
 permissions:
-  keneti.tester.*:
+  keneti.outfit.*:
     description: Grants access to all ${project.name} Commands and Features.
     default: OP
     children:
-      keneti.tester.commands.*: true
-      keneti.tester.features.*: true
+      keneti.outfit.commands.*: true
+      keneti.outfit.features.*: true
       
 #################################################################################################
 
-  keneti.tester.commands.*:
+  keneti.outfit.commands.*:
     description: Grants access to all ${project.name} Commands.
     default: OP
     children:
-      keneti.tester.commands.future: true
+      keneti.outfit.commands.future: true
       #
       #~~~~~~~~~~~~~~~~~~~~~
       
-  keneti.tester.commands.future:
+  keneti.outfit.commands.future:
     description:  // TODO
     default: OP
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  keneti.tester.features.*:
+  keneti.outfit.features.*:
     description: Grants access to all ${project.name} Features.
     default: OP
     children:
-      keneti.tester.features.future: true
+      keneti.outfit.features.future: true
       #
       #~~~~~~~~~~~~~~~~~~~~~
     
-  keneti.tester.features.future:
+  keneti.outfit.features.future:
     description: // TODO
     default: OP

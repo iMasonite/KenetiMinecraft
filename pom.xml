@@ -19,6 +19,7 @@
 		    <module>KenetiRandom</module>
 		    <module>KenetiRetail</module>
 		    <module>KenetiVoters</module>
+			<!-- <module>KenetiOutfit</module> -->
 
 		  <!-- Tekkit Plugins -->
 		  <module>KenetiTekkit</module>
@@ -33,7 +34,7 @@
 		<author>iMasonite</author>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
-		<bukkitPlugins>KenetiStarts, KenetiSocket, KenetiAbsent, KenetiClaims, KenetiProtex, KenetiPlayer, KenetiConfab, KenetiRandom, KenetiRetail, KenetiVoters</bukkitPlugins>
+		<bukkitPlugins>KenetiStarts, KenetiSocket, KenetiAbsent, KenetiClaims, KenetiProtex, KenetiPlayer, KenetiConfab, KenetiRandom, KenetiRetail, KenetiVoters, KenetiOutfit</bukkitPlugins>
 		<tekkitPlugins>KenetiTekkit, KenetiLimits, KenetiTailor, KenetiQuarry</tekkitPlugins>
 		
 	</properties>

@@ -35,22 +35,16 @@ permissions:
     description: Grants access to all ${project.name} Commands and Features.
     default: false
     children:
-      keneti.retail.tools.*: true
       keneti.retail.commands.*: true
       keneti.retail.features.*: true
       
 #################################################################################################
 
-  keneti.retail.tools.*:
-    description: Grants access to all ${project.name} tools..
-    default: false
-    children:
-      keneti.retail.tools.inspect: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.retail.tools.inspect:
-    description: Access to /sell 
+    description: Access to /retail csinspect
+    default: OP
+  keneti.retail.tools.debug:
+    description: Access to /retail csdebugg
     default: OP
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

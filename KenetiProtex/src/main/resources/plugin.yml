@@ -19,36 +19,14 @@ commands:
 #################################################################################################
 
 permissions:
-  keneti.protex.*:
-    description: Grants access to all ${project.name} Commands and Features.
-    default: OP
-    children:
-      keneti.protex.commands.*: true
-      keneti.protex.features.*: true
-      
-#################################################################################################
-
-  keneti.protex.commands.*:
-    description: Grants access to all ${project.name} Commands.
-    default: OP
-    children:
-      keneti.protex.commands.future: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
-  keneti.protex.commands.future:
-    description: // TODO
-    default: OP
+  keneti.protex.commands.convertclaims:
+    description: Convert GP Claims to KC Claims
+    default: false
+  keneti.protex.commands.clearunused:
+    description: Convert GP Claims to KC Claims
+    default: false
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  keneti.protex.features.*:
-    description: Grants access to all ${project.name} Features.
-    default: OP
-    children:
-      keneti.protex.features.future: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
     
   keneti.protex.features.future:
     description: // TODO

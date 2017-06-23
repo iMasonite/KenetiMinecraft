@@ -71,12 +71,16 @@ permissions:
     default: false
     children:
       keneti.starts.commandtype.general: true
+      keneti.starts.commandtype.staff: true
       keneti.starts.commandtype.developer: true
       keneti.starts.commandtype.administrator: true
       #
       #~~~~~~~~~~~~~~~~~~~~~
       
   keneti.starts.commandtype.general:
+    description: Grants root access General commands.
+    default: true
+  keneti.starts.commandtype.staff:
     description: Grants root access General commands.
     default: true
   keneti.starts.commandtype.developer:

@@ -1,8 +1,13 @@
 CREATE TABLE Keneti_VoteRegistry (
-    voteID VARCHAR(36) NOT NULL UNIQUE,
-    playerName VARCHAR(17) NOT NULL,
-    serviceName VARCHAR(128) NOT NULL,
-    voteTime BIGINT(13) NOT NULL,
-    paidOut TINYINT(1) NOT NULL DEFAULT 0, 
-	CONSTRAINT pk_voteID PRIMARY KEY (voteID)
-)
+    VoteID VARCHAR(36) NOT NULL UNIQUE,
+    PlayerName VARCHAR(17) NOT NULL,
+    ServiceName VARCHAR(128) NOT NULL,
+    VoteTime BIGINT(13) NOT NULL,
+    PaidOut TINYINT(1) NOT NULL DEFAULT 0, 
+    ServerPaid VARCHAR(45) DEFAULT NULL,
+    TypeID int(6) DEFAULT 0,
+    TypeData int(4) DEFAULT 0,
+    Amount int(4) NOT NULL DEFAULT 0,
+    Broadcast TINYINT(1) NOT NULL DEFAULT 0, 
+	CONSTRAINT pk_VoteID PRIMARY KEY (VoteID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

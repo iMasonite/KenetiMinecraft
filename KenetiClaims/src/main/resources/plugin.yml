@@ -12,15 +12,15 @@ loadbefore: [${loadBefore}]
 #################################################################################################
 commands:
   claimsplugin:
-    aliases: [cplugin, kclaimsplugin]
+    aliases: [kclaimsplugin, cplugin]
     description: Command to manage the protection plugin.
     usage: Command not initialised ask admin for help.
   claimsadmin:
-    aliases: [cadmin, kclaimsadmin]
+    aliases: [kclaimsadmin, cadmin]
     description: Claim Protection Admin command.
     usage: Command not initialised ask admin for help.
   claims:
-    aliases: [kclaims, claim]
+    aliases: [kclaims, claim, c]
     description: Command for players to manage claims.
     usage: Command not initialised ask admin for help.
 

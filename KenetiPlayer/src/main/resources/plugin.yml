@@ -15,6 +15,14 @@ commands:
     aliases: [kcommandplayer, kplayer]
     description: Root command for ${project.name}
     usage: Command not initialised ask admin for help.
+  goto:
+    aliases: [kgoto, go]
+    description: Teleport Server to Server command.
+    usage: Command not initialised ask admin for help.
+  sendall:
+    aliases: [ksendall, kall]
+    description: Teleport Server to Server command.
+    usage: Command not initialised ask admin for help.
   profiles:
     description: Get your Mojang profile or for another name.
     aliases: [kprofiles, profile, names]
@@ -27,6 +35,10 @@ commands:
     aliases: [kobjectives, kobj]
     description: Ranking objectives manager.
     usage: Command not initialised ask admin for help.
+  setstaff:
+    aliases: [ksetstaff, staff]
+    description: Ranking objectives manager.
+    usage: Command not initialised ask admin for help.
 
 #################################################################################################
 
@@ -35,44 +47,41 @@ permissions:
   keneti.player.commands.autoranktime:
     description: Sync times between AR and Keneti PlayerData
     default: false
-    
-
-  keneti.player.*:
-    description: Grants access to all ${project.name} Commands and Features.
-    default: OP
-    children:
-      keneti.player.commands.*: true
-      keneti.player.features.*: true
-      
+          
 #################################################################################################
-
-  keneti.player.commands.*:
-    description: Grants access to all ${project.name} Commands.
-    default: OP
-    children:
-      keneti.player.commands.get: true
-      keneti.player.commands.profiles: true
-      keneti.player.commands.rankup: true
-      keneti.player.commands.rankup.other: true
-      keneti.player.commands.objectives.add: true
-      keneti.player.commands.objectives.remove: true
-      keneti.player.commands.objectives.reset: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
       
   keneti.player.commands.get:
     description: Get data.
     default: OP
+  keneti.player.commands.time.add:
+    description: Add time to the players data.
+    default: OP
   keneti.player.commands.profiles:
     description: Get a players MC Profile History.
     default: true
+  keneti.player.commands.profiles.banned:
+    description: Get a players MC Profile History & bypasses check.
+    default: true
+  keneti.player.commands.setstaff.set:
+    description: Set a player as known staff for player based stuff.
+    default: false
       
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~
+
   keneti.player.commands.rankup:
     description: Show your personal objectives list.
+    default: true
+  keneti.player.commands.playtime:
+    description: Show your non AFK playtime.
     default: true
   keneti.player.commands.rankup.other:
     description: Show another player's objectives list.
     default: OP
+  keneti.player.commands.playtime.other:
+    description: Show another player's playtime.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~
     
   keneti.player.commands.objectives.add:
     description: Add a new Objective.
@@ -84,15 +93,27 @@ permissions:
     description: Reset a player's objectives progress.
     default: OP
     
-  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  keneti.player.features.*:
-    description: Grants access to all ${project.name} Features.
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.player.commands.goto.go:
+    description: Use the server to server teleport command.
+    default: true
+    
+  keneti.player.commands.goto.list:
+    description: List servers that can be teleported to.
+    default: true
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.player.commands.sendall.send:
+    description: Use the server to server teleport command.
     default: OP
-    children:
-      keneti.player.features.gamemode.creative: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
+    
+  keneti.player.commands.sendall.list:
+    description: List servers that can be teleported to.
+    default: OP
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
   keneti.player.features.gamemode.creative:
     description: Permission to have Creative Game Mode on the server.

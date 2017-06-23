@@ -145,7 +145,7 @@ permissions:
   
   keneti.limits.features.bypass.*:
     description: Bypass All Restriction Rules.
-    default: OP
+    default: false
     children:
       keneti.limits.features.bypass.globalbanned: true
       keneti.limits.features.bypass.worldsbanned: true
@@ -156,14 +156,13 @@ permissions:
     
   keneti.limits.features.bypass.globalbanned:
     description: Bypass Global Banned rules.
-    default: OP
+    default: false
   keneti.limits.features.bypass.worldsbanned:
     description: Bypass Worlds Banned rules.
-    default: OP
+    default: false
   keneti.limits.features.bypass.globalunlocks:
     description: Bypass Global Unlocks rules.
-    default: OP
+    default: false
   keneti.limits.features.bypass.globallimit:
     description: Bypass Global Limit rules.
-    default: OP
-
+    default: false

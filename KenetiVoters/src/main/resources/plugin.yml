@@ -19,29 +19,14 @@ commands:
     description: Open a vote reward inventory.
     aliases: [kvote, votes]
     usage: Command not initialised ask admin for help.
+  testvote:
+    description: Create test votes.
+    aliases: [vtest ktv]
+    usage: Command not initialised ask admin for help.
 
 #################################################################################################
 
 permissions:
-  keneti.voters.*:
-    description: Grants access to all ${project.name} Commands and Features.
-    default: OP
-    children:
-      keneti.voters.commands.*: true
-      keneti.voters.features.*: true
-      
-#################################################################################################
-
-  keneti.voters.commands.*:
-    description: Grants access to all ${project.name} Commands.
-    default: OP
-    children:
-      keneti.voters.commands.pseudo: true
-      keneti.voters.commands.runtask: true
-      keneti.voters.commands.voteinventory.*: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.voters.commands.pseudo:
     description: Permission to create pseudo votes.
     default: OP
@@ -51,16 +36,6 @@ permissions:
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-  keneti.voters.commands.voteinventory.*:
-    description: Grants access to all ${project.name} Commands.
-    default: OP
-    children:
-      keneti.voters.commands.voteinventory.openself: true
-      keneti.voters.commands.voteinventory.openothers: true
-      keneti.voters.commands.voteinventory.clearothers: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-      
   keneti.voters.commands.voteinventory.openself:
     description: Permission to open your vote inventory.
     default: true
@@ -73,14 +48,6 @@ permissions:
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  keneti.voters.features.*:
-    description: Grants access to all ${project.name} Features.
-    default: OP
-    children:
-      keneti.voters.features.future: true
-      #
-      #~~~~~~~~~~~~~~~~~~~~~
-    
   keneti.voters.features.future:
     description: // TODO
     default: OP

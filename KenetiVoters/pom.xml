@@ -20,8 +20,8 @@
 	<properties>
 		<mainClass>com.keneti.voters.KenetiVoters</mainClass>
 
-		<hardDepend>KenetiStarts, KenetiRetail, Votifier</hardDepend>
-		<softDepend></softDepend>
+		<hardDepend>KenetiStarts, KenetiRetail</hardDepend>
+		<softDepend>Votifier</softDepend>
 		<loadPhase>POSTWORLD</loadPhase>
 		<loadBefore>${tekkitPlugins}</loadBefore>
 
@@ -118,7 +118,11 @@
 						<configuration>
 							<target failonerror="false"></target>
 							<tasks>
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25611/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25612/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25613/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="D:/SERVERS/TekkitLite_25614/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
+								<copy overwrite="true" file="./target/${project.name}.jar" tofile="T:/SERVERS/TekkitLite_25615/Minecraft/plugins/AutoPluginUpdater/${project.name}.jar" />
 							</tasks>
 						</configuration>
 					</execution>

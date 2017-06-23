@@ -46,7 +46,7 @@ permissions:
     default: true
   keneti.quarry.commands.tpquarry.other:
     description: Teleport to other player's quarries.
-    default: true
+    default: OP
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
